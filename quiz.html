@@ -31,6 +31,14 @@
                 margin-bottom: 20px;
                 text-align: center;
             }
+            #bottom-score-container {
+                font-size: 1.2rem;
+                font-weight: bold;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+
             /* Card styles for each question */
             .question-card {
                 background-color: #fff;
@@ -115,6 +123,7 @@
             <h1>Random Quiz</h1>
             <div id="score-container"></div>
             <div id="questions-container"></div>
+            <div id="bottom-score-container"></div>
             <div class="controls">
                 <button id="check-button">Check answers</button>
                 <button id="reload-button">Try another 25</button>
@@ -313,6 +322,7 @@
                 // Show the score at the top
                 const scoreContainer = document.getElementById('score-container');
                 scoreContainer.textContent = 'Your score: ' + correctCount + ' / ' + cards.length;
+                document.getElementById('bottom-score-container').textContent = 'Your score: ' + correctCount + ' / ' + cards.length;
                 // Disable the check button and reveal reload button
                 document.getElementById('check-button').disabled = true;
                 document.getElementById('reload-button').style.display = 'inline-block';
