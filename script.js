@@ -1,4 +1,3 @@
-
 const CSV_PATH = 'questions.csv';
 
 // Parse CSV text into an array of question objects. This function
@@ -164,8 +163,7 @@ function checkAnswers() {
     // Show the score at the top and bottom
     const scoreContainer = document.getElementById('score-container');
     scoreContainer.textContent = 'Your score: ' + correctCount + ' / ' + cards.length;
-    document.getElementById('bottom-score-container').textContent =
-        'Your score: ' + correctCount + ' / ' + cards.length;
+    document.getElementById('bottom-score-container').textContent = 'Your score: ' + correctCount + ' / ' + cards.length;
 
     // Disable the check button and reveal reload button
     document.getElementById('check-button').disabled = true;
@@ -173,14 +171,11 @@ function checkAnswers() {
 }
 
 // On initial page load, fetch and parse the CSV, then render 25 random questions
-document.addEventListener('DOMContentLoaded', () => {
-    // Fetch the CSV file, parse it, and then render a random subset
+function initQuiz() {
     fetch(CSV_PATH)
         .then(response => {
             if (!response.ok) {
-                throw new Error(
-                    'Failed to load CSV file. Make sure questions.csv is in the same folder or adjust CSV_PATH.'
-                );
+                throw new Error('Failed to load CSV file. Make sure questions.csv is in the same folder or adjust CSV_PATH.');
             }
             return response.text();
         })
@@ -191,18 +186,61 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             const selected = getRandomQuestions(allQuestions, Math.min(25, allQuestions.length));
             renderQuestions(selected);
+            // show questions container once loaded
+            document.getElementById('questions-container').style.display = 'block';
         })
         .catch(err => {
-            // Display error message to the user in the score container
             const scoreContainer = document.getElementById('score-container');
             scoreContainer.style.color = 'red';
             scoreContainer.textContent = err.message;
         })
         .finally(() => {
-            // Attach event listeners to buttons regardless of fetch outcome
             document.getElementById('check-button').addEventListener('click', checkAnswers);
             document.getElementById('reload-button').addEventListener('click', () => {
                 window.location.reload();
             });
         });
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    const btn = document.getElementById('token-button');
+    const input = document.getElementById('token-input');
+    const errorEl = document.getElementById('token-error');
+
+    btn.addEventListener('click', async () => {
+        const token = input.value.trim();
+        if (!token) {
+            errorEl.textContent = 'Please enter a token.';
+            errorEl.style.display = 'block';
+            return;
+        }
+
+        try {
+            errorEl.style.display = 'none';
+
+            const res = await fetch('/api/check-token', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ token }),
+            });
+
+            const data = await res.json();
+
+            if (!res.ok || !data.ok) {
+                errorEl.textContent = data.error || 'Token not accepted.';
+                errorEl.style.display = 'block';
+                return;
+            }
+
+            // Hide login, show quiz
+            document.getElementById('login-container').style.display = 'none';
+
+            // Now load questions
+            initQuiz();
+        } catch (err) {
+            console.error(err);
+            errorEl.textContent = 'Something went wrong. Try again.';
+            errorEl.style.display = 'block';
+        }
+    });
 });

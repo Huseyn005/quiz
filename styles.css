@@ -97,6 +97,16 @@ button {
     cursor: pointer;
 }
 
+#token-input {
+    padding: 8px 14px;
+    font-size: 17px;
+}
+
+#token-button {
+    background-color: red;
+    color: white;
+}
+
 #check-button {
     background-color: #1976d2;
     color: #fff;
