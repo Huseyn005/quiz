@@ -207,7 +207,16 @@ document.addEventListener('DOMContentLoaded', () => {
     const input = document.getElementById('token-input');
     const errorEl = document.getElementById('token-error');
 
-    btn.addEventListener('click', async () => {
+    btn.addEventListener('click', submitToken);
+
+    // Handle Enter key on the input
+    input.addEventListener('keydown', e => {
+        if (e.key === 'Enter') {
+            submitToken();
+        }
+    });
+
+    async function submitToken() {
         const token = input.value.trim();
         if (!token) {
             errorEl.textContent = 'Please enter a token.';
@@ -242,5 +251,5 @@ document.addEventListener('DOMContentLoaded', () => {
             errorEl.textContent = 'Something went wrong. Try again.';
             errorEl.style.display = 'block';
         }
-    });
+    }
 });
