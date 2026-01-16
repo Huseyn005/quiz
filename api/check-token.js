@@ -4,44 +4,51 @@ const redis = Redis.fromEnv();
 
 export default async function handler(req, res) {
     if (req.method !== 'POST') {
-        res.setHeader('Allow', ['POST']);
-        return res.status(405).json({ error: 'Method not allowed' });
+        return res.status(405).json({ ok: false, error: 'Method not allowed' });
     }
 
     try {
-        const { token } = req.body || {};
-
-        if (!token || typeof token !== 'string') {
-            return res.status(400).json({ error: 'Token is required' });
+        const token = req.body?.token?.trim();
+        if (!token) {
+            return res.status(400).json({ ok: false, error: 'Token is required' });
         }
 
-        // Get client IP (Vercel: x-forwarded-for header)
         const forwarded = req.headers['x-forwarded-for'];
         const clientIp = Array.isArray(forwarded) ? forwarded[0] : forwarded?.split(',')[0] || req.socket?.remoteAddress || 'unknown';
 
         const key = `token:${token}`;
+        let data = await redis.get(key);
 
-        // Existing IP saved for this token?
-        const existingIp = await redis.get(key);
-
-        if (!existingIp) {
-            // First time: bind this token to this IP
-            res.status(401).json({ ok: false, error: "Invalid token." });
-            return ;
+        if (data === null) {
+            return res.status(401).json({ ok: false, error: 'Invalid token.' });
         }
 
-        if (existingIp !== clientIp) {
-            // Token already locked to another IP
+        // Normalize stored value
+        if (typeof data === 'string') {
+            try {
+                data = JSON.parse(data);
+            } catch {
+                data = {};
+            }
+        }
+
+        const savedIp = data.ip;
+
+        if (savedIp && savedIp !== clientIp) {
             return res.status(403).json({
                 ok: false,
-                error: 'This token is already used from another network.',
+                error: 'This token is already used on another network.',
             });
         }
 
-        // Same IP as before → allow
-        return res.status(200).json({ ok: true, firstUse: false });
+        const firstUse = !savedIp;
+        if (firstUse) {
+            await redis.set(key, JSON.stringify({ ip: clientIp }));
+        }
+
+        return res.status(200).json({ ok: true, firstUse });
     } catch (err) {
         console.error(err);
-        return res.status(500).json({ error: 'Server error' });
+        return res.status(500).json({ ok: false, error: 'Server error' });
     }
 }
