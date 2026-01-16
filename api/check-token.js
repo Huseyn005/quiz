@@ -19,6 +19,7 @@ export default async function handler(req, res) {
         const key = `token:${token}`;
         let data = await redis.get(key);
 
+        // Token does not exist in Redis -> invalid
         if (data === null) {
             return res.status(401).json({ ok: false, error: 'Invalid token.' });
         }
@@ -32,11 +33,14 @@ export default async function handler(req, res) {
             }
         }
 
-        const savedIp = data.ip;
+        const savedIp = data.ip || null;
 
+        // Token already locked to another IP
         if (savedIp && savedIp !== clientIp) {
-            data.blackedIp = clientIp;
-            await redis.append(key, JSON.stringify(data));
+            // log blocked IP if you want
+            data.blockedIp = clientIp;
+            await redis.set(key, JSON.stringify(data));
+
             return res.status(403).json({
                 ok: false,
                 error: 'This token is already used on another network.',
@@ -44,8 +48,10 @@ export default async function handler(req, res) {
         }
 
         const firstUse = !savedIp;
+
+        // First valid use → bind token to this IP
         if (firstUse) {
-            data.ip = savedIp;
+            data.ip = clientIp; 
             await redis.set(key, JSON.stringify(data));
         }
 
