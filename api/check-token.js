@@ -35,7 +35,7 @@ export default async function handler(req, res) {
         const savedIp = data.ip;
 
         if (savedIp && savedIp !== clientIp) {
-            data.blackedip = clientIp;
+            await redis.set(key, JSON.stringify({ blackedIP: clientIp }));
             return res.status(403).json({
                 ok: false,
                 error: 'This token is already used on another network.',
