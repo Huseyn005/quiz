@@ -26,8 +26,8 @@ export default async function handler(req, res) {
 
         if (!existingIp) {
             // First time: bind this token to this IP
-            await redis.set(key, clientIp);
-            return res.status(200).json({ ok: true, firstUse: true });
+            res.status(401).json({ ok: false, error: "Invalid token." });
+            return ;
         }
 
         if (existingIp !== clientIp) {
