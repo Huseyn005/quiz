@@ -270,12 +270,11 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-
     async function submitToken() {
         const token = input.value.trim();
 
         if (!token) {
-            error.textContent = 'Please enter a token.';
+            error.textContent = 'Tokeni daxil et.';
             error.style.display = 'block';
             return;
         }
@@ -284,7 +283,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const res = await fetch('/api/check-token', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ token })
+                body: JSON.stringify({ token }),
             });
 
             if (!res.ok) {
@@ -296,13 +295,13 @@ document.addEventListener('DOMContentLoaded', () => {
             if (data.ok) {
                 window.location.href = 'select-quiz.html';
             } else {
-                error.textContent = 'Invalid token.';
+                error.textContent = 'Yanlış token';
                 error.style.display = 'block';
             }
         } catch (e) {
             console.error(e);
-            error.textContent = 'Could not verify token. Try again.';
+            error.textContent = 'Yanlış token yenidən cəhd et';
             error.style.display = 'block';
         }
-    };
+    }
 });
