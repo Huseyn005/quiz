@@ -172,7 +172,7 @@ function renderBiochemOpenQuestions(questions, startIndex) {
 
         const qText = document.createElement('p');
         qText.className = 'question-text';
-        qText.textContent = startIndex + index + 1 + ')' + q.id + '.' + q.question;
+        qText.textContent = startIndex + index + 1 + ') ' + q.id + '. ' + q.question;
         card.appendChild(qText);
 
         const textarea = document.createElement('textarea');

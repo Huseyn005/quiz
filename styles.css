@@ -230,12 +230,21 @@ h1 {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -30%);
-    font-size: 24px;
+    transform: translate(-50%, 0%);
+    font-size: 36px;
     font-weight: bold;
 }
 
 .score-text {
     margin-top: 8px;
-    font-size: 24px;
+    font-size: 30px;
+}
+
+#score-container,
+#bottom-score-container {
+    font-size: 24px; /* bigger text */
+    font-weight: 700; /* bold */
+    text-align: right; /* align to right side */
+    margin: 10px 0; /* spacing above & below */
+    color: #222; /* dark grey for cleaner look */
 }
