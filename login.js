@@ -283,7 +283,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const data = await res.json();
 
-            if (data.valid) {
+            if (data.ok) {
                 window.location.href = 'select-quiz.html';
             } else {
                 error.textContent = 'Invalid token.';
