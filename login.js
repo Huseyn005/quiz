@@ -261,7 +261,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const button = document.getElementById('token-button');
     const error = document.getElementById('token-error');
 
-    btn.addEventListener('click', submitToken);
+    button.addEventListener('click', submitToken);
 
     // Handle Enter key on the input
     input.addEventListener('keydown', e => {
@@ -269,6 +269,7 @@ document.addEventListener('DOMContentLoaded', () => {
             submitToken();
         }
     });
+
 
     async function submitToken() {
         const token = input.value.trim();
@@ -283,7 +284,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const res = await fetch('/api/check-token', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ token }),
+                body: JSON.stringify({ token })
             });
 
             if (!res.ok) {
@@ -303,5 +304,5 @@ document.addEventListener('DOMContentLoaded', () => {
             error.textContent = 'Could not verify token. Try again.';
             error.style.display = 'block';
         }
-    }
+    };
 });
