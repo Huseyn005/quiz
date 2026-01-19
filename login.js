@@ -1,4 +1,4 @@
-const CSV_PATH = 'questions.csv';
+/* const CSV_PATH = 'questions.csv';
 
 // Parse CSV text into an array of question objects. This function
 
@@ -252,4 +252,47 @@ document.addEventListener('DOMContentLoaded', () => {
             errorEl.style.display = 'block';
         }
     }
+});
+*/
+
+// login.js
+document.addEventListener('DOMContentLoaded', () => {
+    const input = document.getElementById('token-input');
+    const button = document.getElementById('token-button');
+    const error = document.getElementById('token-error');
+
+    button.addEventListener('click', async () => {
+        const token = input.value.trim();
+
+        if (!token) {
+            error.textContent = 'Please enter a token.';
+            error.style.display = 'block';
+            return;
+        }
+
+        try {
+            const res = await fetch('/api/check-token', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ token })
+            });
+
+            if (!res.ok) {
+                throw new Error('Server error while checking token.');
+            }
+
+            const data = await res.json();
+
+            if (data.valid) {
+                window.location.href = 'select-quiz.html';
+            } else {
+                error.textContent = 'Invalid token.';
+                error.style.display = 'block';
+            }
+        } catch (e) {
+            console.error(e);
+            error.textContent = 'Could not verify token. Try again.';
+            error.style.display = 'block';
+        }
+    });
 });

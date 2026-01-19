@@ -1,3 +1,4 @@
+<!--
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -25,5 +26,32 @@
         </div>
 
         <script src="script.js"></script>
+    </body>
+</html>
+-->
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Random Quiz – Login</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1>Random Quiz</h1>
+
+            <div id="login-container" class="card">
+                <p>Access token:</p>
+                <div class="login-row">
+                    <input id="token-input" type="text" placeholder="Enter your token" />
+                    <button id="token-button" class="btn btn-danger">Enter</button>
+                </div>
+                <p id="token-error" class="error-text" style="display: none"></p>
+            </div>
+        </div>
+
+        <script src="login.js"></script>
     </body>
 </html>
