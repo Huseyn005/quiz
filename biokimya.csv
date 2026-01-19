@@ -1,0 +1,403 @@
+﻿ID,Sual,A,B,C,D,E,correct
+1,1. İdman biokimyası hansı elmlərlə qarşılıqlı əlaqədədir?,"idman fiziologiyası, idman təbabəti, idman gigiyenası","anatomiya, idman fiziologiyası, gigiyena, idman təbabəti","anatomiya, idman fiziologiyası, idman təbabəti, psixologiya","idman fiziologiyası, psixologiya, idman təbabəti","anatomiya, idman fiziologiyası, idman gigiyenası",B
+2,2. Funksional biokimya elmi nəyi öyrənir?,maddələr mübadiləsi və enerji mübadiləsi proseslərini,orqanizmdə olan bütün kimyəvi birləşmələrin miqdarını və funksiyasını,metabolizm prosesləri ilə orqanizmin funksiyaları arasındakı əlaqələri,orqanizmdə olan bütün kimyəvi birləşmələrin quruluşunu və funksiyasını,yalnız enerji mübadiləsi proseslərini,C
+3,3. Bioloji kimya fənni nəyi öyrənir?,insan orqanizminin kimyəvi tərkibini öyrənir,"insan, heyvan və bitkilərin kimyəvi tərkibini öyrənir",energetik mübadiləni və maddələr mübadiləsini öyrənir,mikroorqanizmlərdə baş verən kimyəvi prosesləri öyrənir,bütün canlı orqanizmlərin kimyəvi tərkibini öyrənir,E
+4,4. Müasir bioloji kimyanın hansı bölmələri vardır?,"statik, dinamik və funksional","funksional, üzvi və qeyri-üzvi","üzvi, statik və dinamik",farmokoloji və funksional,funksional və dinamik,A
+5,5. Kalium elementi haqqında hansı ifadə düzdür?,zülalların sintezində iştirak edir,eninəzolaqlı və saya əzələlərin tonusunu azaldır,hemoqlobinin sintezinde iştirak edir,ürək işinin nizama salınmasında mühüm rol oynayır,normadan artıqlığı insan orqanizminə toksiki təsir göstərmir,D
+6,6. Maddələr mübadiləsi prosesi nədən ibarətdir?,yalnız enerji mübadiləsindən ibarətdir,"qidalanma, sintez və parçalanma proseslərinin qarşılıqlı əlaqəsindən ibarətdir","qidalanma, sintez və ifrazetmə proseslərinin qarşılıqlı əlaqəsindən ibarətdir","qidalanma və ifrazetmə, sintez və parçalanma proseslərinin qarşılıqlı əlaqəsindən ibarətdir",yalnız assimilyasiya proseslərindən ibarətdir,D
+7,7. Spirtlərin funksional qrupu hansılardır?,OH,CH3,COH,COOH,NH,A
+8,8. Aminturşuların tərkibində hansı funksional qruplar vardır?,"OH, COOH","CH2, CH3",NH2; COOH,NH; COOH,"NH, OH",C
+9,9. Hansı üzvi maddələrin tərkibində amin qrupuna rast gəlinmir?,zülallar,karbohidratlar,azot əsasları,aminturşuları,neytral yağlar,E
+10,10. Sümük toxuması və dişlərin tərkibinə hansı qeyri-üzvi birləşmələr daxildir?,"Ca SO4, Ca CO3; H2 CO3; Al(OH)3",Ca(PO4)2; Ca CO3; Ca F2; Na3 PO4; Mg3(PO4)2,K2 SO4; Ca F2; Ca Cl2; Na2 SO4,HCl; H2 CO3; H3 PO4,Mg2 SO4; Ca SO4; Na Cl; Ca Cl2; Na3 PO4,B
+11,11. İnsan orqanizminin toxumalarında su hansı funksiyanı yerinə yetirir?,suyun hormonal əhəmiyyəti vardır və bütün maddələrin universial,katalizator funksiyasını yerinə yetirir və bütün maddələrin universial daşıyıcısıdır,orqanizmdə mübadilə məhsullarının və başqa maddələrin universal daşıyıcısıdır,turş-qələvi məhsullar orqanizmdən su vasitəsilə xaric edilir,su orqanizmdəki lipid maddələrinin həlledicisidir,C
+12,12. Mürəkkəb birləşmələrdən sadə üzvi birləşmələrin əmələ gəlməsi necə adlanır?,energetik balans,dissimilyasiya,əsas mübadilə,assimilyasiya,ümumi mübadilə,B
+13,13. Sadə birləşmələrdən mürəkkəb üzvi birləşmələrin əmələ gəlməsi necə adlanır?,dissimilyasiya,işçi mübadilə,assimilyasiya,əsas mübadilə,transkripsiya,C
+14,14. Böyümə və inkişaf dövründə hansı proses baş verir?,dissimilyasiya prosesi üstünlük təşkil edir,assimilyasiya prossesi üstünlük təşkil edir,parçalanma və ifrazetmə prosesləri üstünlük təşkil edir,su-duz mübadiləsi zəifləyir,qanın osmos təzyiqi artıq,B
+15,15. Qocalıq dövründə hansı proses baş verir?,dissimilyasiya prosesi zəifləyir,dissimilyasiya prossesi sürətlənir,assimilyasiya prosesi üstünlük təşkil edir,energetik mübadilə sürətlənir,fermentlərin sintezi sürətlənir,B
+16,16. Əzələ toxumasının kimyəvi tərkibi hansı maddələrdən ibarətdir?,yalnız üzvi maddələrdən,"su, üzvi və qeyri-üzvi maddələrdən",su və qeyri-üzvi maddələrdən,yalnız amin turşulardan,azotlu üzvi birləşmələrdən,B
+17,"17. Hansı üzvi maddələr əzələ toxumasının kimyəvi tərkibini təşkil edir? 1.karbohidratlar, lipidlər 2.aminturşular, zülallar 3.fosfat turşusu, kreatinfosfat, ATF 4.fosfat turşusu, zülallar, ATF","2,3","1,4","1,2","2,4","3,4",C
+18,18. Əzələ toxumasının 72-80%-i nədən təşkil olunmuşdur?,qeyri üzvi maddələrdən,karbohidratlardan,sudan,zülallardan,amin turşularından,C
+19,19. Skelet əzələlərində neçə növ liflər vardır?,1,3,5,2,4,B
+20,20. Əzələ liflərinin yığılmasında hansı zülallar iştirak edir?,kollagen,"aktin, miokinaza","aktin, miozin",kreatin,"elastin, kollagen",C
+21,21. Sarkoplazma zülalları əzələ toxumasında hansı funksiyanı yerinə yetirir?,təqəllüs,struktur,mübadilə,müdafiə,ehtiyat,C
+22,22. Miofibrillərin əzələ toxumasında rolu nədir?,müdafiə funksiyasını yerinə yetirirlər,əzələ təqəllüsünü yerinə yetirirlər,mübadilə proseslərini yerinə yetirirlər,nəqliyyat funksiyasını yerinə yetirirlər,ehtiyat funksiyasını yerinə yetirirlər,B
+23,23. Stroma zülalları əzələ toxumasında hansı funksiyaları yerinə yetirir?,ehtiyat,quruluş-struktur,mübadilə,tənəffüs,təqəllüs,B
+24,24. Əzələ təqəllüsündə Ca2+ ionunun rolu nədir?,ATF-in əzələ liflərində parçalanmasını təmin edir,əzələ liflərinə hərəki sinir siqnalını ötürür,əzələ liflərinə duyğu sinir impluslarını ötürür,təqəllüsdə iştirak edən zülalları inaktivləşdirir,Ca2+ ionunun əzələ təqəllüsündə heç biri rolu yoxdur,B
+25,25. Əzələ lifinin quruluş vahidi nədir?,lipoproteidlər,polisaxaridlər,miofibrillər,bioloji membranlar,hər biri,C
+26,26. Tropomiozin zülalı aşağıdakı funksiyalardan hansını yerinə yetirir?,energetik maddə rolunu oynayır,Ca2+ ionlarının miqdarını azaldır,aktin və miozinlə əlaqəni kəsir,ATF-in hidrolizini zəiflədir,ATF-in miqdarını artırır,C
+27,27. ATF əzələ toxumasında əsasən hansı funksiyanı yerinə yetirir?,sinir impluslarının ötürülməsini,enerji mübadiləsini və hidroliz proseslərini,assimilyasiya proseslərini,mübadilə proseslərini,dissimilyasiya proseslərini,B
+28,28. ATF molekulunun kimyəvi tərkibi necədir?,adenin azot əsası+fosfat turşusu,adenin azot əsası+dezoksiriboza+fosfat turşusu,adenin azot əsası+riboza+trifosfat turşusu,adenin azot əsası+qlükoza+fosfat turşusu,adenin azot əsası+kreatin+fosfat turşusu,C
+29,29. Miozinin ferment xassəsi hansı maddənin parçalanmasını kataliz edir?,AMF-in,ATF-in,KrF-ın,ADF-in,zülalların,B
+30,30. Miozinin ferment aktivliyi onun molekulunda hansı funksional qrupun olması ilə bağlıdır?,COOH,OH,SH,C=O,–S–S–,C
+31,31. ATF-in hidrolizi zamanı hansı miqdarda enerji ayrılır?,20 kkal,10 kkal,30 kkal,60 kkal,80 kkal,B
+32,32. Əzələlərdə kreatinfosfatın miqdarı ATF-dən neçə dəfə çoxdur?,5,4,3,2,10,C
+33,33. Əzələlərin təqəllüsü üçün ATF-in qatılığı neçə faiz olmalıdır?,"0,40%",100%,"0,05%",50%,"0,01%",A
+34,34. Enerji təminatında hansı anaerob mexanizmlər iştirak edir?,"kreatinfosfokinaza, miokinaza, qlikolitik",kreatinfosfokinaza və miokinaza,yalnız kreatinfosfokinaza,qəza mexanizmi və aerob,miokinaza və qlikolitik,A
+35,35. Aerob mexanizmlər hansı fiziki işlərin icrasında əsas rol oynayır?,"qısamüddətli, yüksək intensivli işlərin icrasında iştirak edir","uzunmüddətli, yüksək intensivli fiziki işlərin icrasını yerinə yetirir","qısamüddətli, zəif intensivli işlərin icrasını yerinə yetirir","uzunmüddətli, zəif intensivli fiziki işlərin icrasında əsas rol oynayır",qısa və uzunmüddətli fiziki işlərin icrasında əsas rol oynayırlar,D
+36,36. Hüceyrədə enerji mübadiləsi harada baş verir?,holici kompleksində,ribasomlarda,mitoxondiridə,nüvədə,lizasomlarda,C
+37,37. Bir molekul qlükozanın aerob oksidləşməsi zamanı neçə molekul ATF əmələ gəlir?,20,40,30,38,10,D
+38,38. Fiziki işin fasiləsiz davam etməsi hansı prosesin hesabına yaranır?,ADF-in çox ani bərpası,ATF-in parçalanması,ATF-in çox ani bərpası,zülalların çox ani bərpası,zülalların parçalanması,C
+39,39. Kreatinfosfokinaza reaksiyasında hansı fosforlu birləşmələr iştirak edir?,ADF və ATF,Kr F və AMF,Kr F və ADF,KrF və ATF,AMF və ATF,C
+40,40. Kreatinfosfokinaza mexanizmi əsasən hansı əzələ liflərində fəaliyyət göstərir?,ürəyin əzələ liflərində,saya əzələ liflərində,sürətsiz əzələ liflərində,sürətli əzələ liflərində,epitel əzələ liflərində,B
+41,41. Miokinaza reaksiyası zamanı hansı birləşmələr əmələ gəlir?,AMF və ADF,yalnız ATF,yalnız ADF,ATF və AMF,KrF və AD,D
+42,42. ATF-in miokinaza mexanizmi əzələ fəaliyyətinin hansı məqamlarında baş verir?,submaksimal əzələ fəaliyyəti zamanı,aktiv əzələ fəaliyyəti zamanı,kəskin əzələ yorğunluğu zamanı,əzələ fəaliyyət etmədikdə,müvəqqəti iş zamanı,C
+43,43. ATF-in resintezinin hansı reaksiyası “qəza” mexanizmi adlanır?,qlikoliz və aerob,qlikoliz,kreatinfosfokinaza,miokinaza,aerob,D
+44,44. ATF-in resintezinin qlikolitik mexanizmi hansı şəraitdə fəallaşır?,aminturşuların miqdarı çox olduqda,ATF-in miqdarı çox olduqda,kreatinfosfokinaza mexanizmi tükəndikdə,qlükozanın miqdarı çox olduqda,qlükozanın miqdarı aşağı olduqda,C
+45,45. Məşq etmiş idmançılarda qlikolizin maksimal şiddəti məşq etməyən insanlara nisbətən necə olur?,orta-aşağı,sabit,yüksək,çox aşağı,dəyişkən,C
+46,46. 400m məsafəyə qaçan zaman enerjinin neçə faizi kreatinfosfatın parçalanmasından alınır?,50%,25%,10%,75%,100%,C
+47,47. Qlikolitik mexanizm maksimal şiddətə işin neçənçi saniyəsində çatır?,20-ci saniyədə,10-cu saniyədə,30-cu saniyədə,15-ci saniyədə,5-ci saniyədə,C
+48,48. ATF-in qlikolitik resintezi zamanı qanda çoxlu miqdarda hansı turşu toplanır?,fosfat turşusu,amin turşuları,süd turşusu,yağ turşuları,hidrogen xlorid turşusu,C
+49,49. ATF-in resintezinin aerob mexanizmi orqanizmi neçə faiz enerji ilə təmin edir?,70%,50%,10%,90%,100%,D
+50,50. Aerob oksidləşmə zamanı hansı birləşmələr iştirak edir?,"kreatinfosfat, zülallar, yağ turşular","kreatinfosfat, zülallar, aminturşular","qlükoza, yağ turşular, aminturşular",ATF və KrF,KrF və ADF,C
+51,51. Əzələlərdə karbohidratların ehtiyatı tükəndikdən sonra enerji mübadiləsində hansı üzvi birləşmə iştirak edir?,nişasta,qlikogen,yağlar,kreatin,kreatinfosfat,C
+52,52. Orqanizmdə baş verən kimyəvi dəyişikliklərin dinamikası icra olunan fiziki hərəkətin hansı növündən asılıdır?,yalnız növündən və idmançının məşq səviyyəsindən asılıdır,"şiddətindən,davametmə müddətindən və idmançının məşq səviyyəsindən asılıdır","şiddətindən, tipindən, davametmə müddətindən və idmançının məşq səviyyəsindən asılıdır",yalnız məşq səviyyəsindən asılıdır,davametmə müddətindən və məşq səviyyəsindən asılıdır,C
+53,53. Ən böyük biokimyəvi dəyişikliklər hansı növ fiziki hərəkətlərdə baş verir?,regional,lokal,lokal və qlobal,qlobal,regional və qlobal,D
+54,54. Uzunmüddətli fiziki işlər zamanı ATF əsasən hansı mexanizm hesabına bərpa olunur?,aerob və anaerob,miokinaza,kreatinfosfokinaza,aerob,qlikolitik,D
+55,55. Qısamüddətli fiziki işlər zamanı ATF-in resintezində hansı mexanizmlər iştirak edir?,qlikolitik və miokinaza,yalnız qlikolitik,kreatinfosfokinaza və qlikolitik,yalnız miokinaza,kreatinfosfokinaza və miokinaza,C
+56,56. Fiziki işin davametmə müddəti artdıqca anaerob mexanizmdə hansı dəyişikliklər baş verir?,"şiddət sabit qalır, həcm artır",şiddəti və həcmi artır,şiddəti və həcmi azalır,şiddət və həcm dəyişkən olur,"şiddəti azalır, həcm sabit qalır",C
+57,57. Fiziki işin davametmə müddəti artdıqca aerob mexanizmdə hansı dəyişikliklər baş verir?,şiddət və həcm sabit qalır,şiddəti və həcmi azalır,şiddəti və həcmi artır,şiddət və həcm dəyişkən olur,heç bir dəyişiklik baş vermir,C
+58,58. Oksigen eritrositlərdəki hemoqlobin ilə birləşib hansı maddəni əmələ gətirir?,oksihemoqlobini,mioqlobini,leykositləri,trombositləri,albumini,A
+59,59. Aerob reakiyalar zamanı lazım olan oksigenin miqdarı necə adlanır?,oksigen çoxluğu,oksigen çatışmazlığı,oksigen ehtiyacı,oksihemoqlabin ehtiyacı,oksihemoqlabin çatışmazlığı,C
+60,60. Sprint qaçışında enerjinin neçə faizini anaerob qlikoliz təşkil edir?,20%,10%,50%,30%,60%,C
+61,61. Marafon qaçışı zamanı neçə qrama qədər yağların oksidləşməsi baş verir?,500qr,100qr,200qr,300qr,750qr,D
+62,62. Əzələ işi zamanı əmələ gələn enerjinin neçə faizi zülalların hesabına olur?,50%,20%,30%,10%,100%,D
+63,63. Kritik şiddət oksigen sərfinin hansı səviyyəsi adlanır?,orta-aşağı,submaksimal,dəyişkən,maksimal,sabit,D
+64,64. İşin şiddəti və davametmə müddəti bir-biri ilə hansı mütənasiblik əlaqəsindədir?,mütənasib deyildir,düz mütənasibdir,tərs mütənasibdir,kritik mütənasibdir,mütənasibliyi dəyişkəndir,C
+65,65. Əzələ fəaliyyətindən asılı olaraq yorulmaya səbəb olan biokimyəvi dəyişikliklər hansılardır? 1.enerji ehtiyatları və aparıcı fermentlərin aktivliyinin aşağı enməsi 2.mübadilə məhsullarının toplanması və sinir-humoral tənzimin zəifləməsi 3.sinir humoral tənzimin dəyişilməsi və mineral maddələrin azalması 4.mineral maddələrin azalması və ammonyakın çoxalması 5.yalnız ammonyakın çoxalması,"2,4","1,5","2,3","1,2","4,5",D
+66,66. Yorulma zamanı orqanizmin işgörmə qabiliyyəti necə olur?,müvəqqəti olaraq çoxalır,aktivliyini daimilik itirir,müvəqqəti olaraq aşağı enir,superkompensasiyaya uğrayır,sabit qalır,C
+67,67. Superkompensasiya prosesi nədir?,makroerqik proseslərdir,normadan aşağı bərpa prosesidir,normadan artıq bərpa prosesidir,anaerob proseslərdir,enerji daşıyıcı elektronlardır,C
+68,68. Ləng bərpa fazasında hansı üzvi maddələrin ehtiyatı bərpa olur?,mineral maddələrin və vitaminlərin,zülalların və aminturşuların,karbohidrat və yağların,hormonların və fermentlərin,proteinsintetazaların,C
+69,69. İdman diaqnostikasında yorulma prosesi qanda hansı hormonu təyin etməklə müəyyənləşdirilir?,qlükaqon,kalsitonin,adrenalin,tiroksin,triyodtironin,C
+70,70. Fiziki iş zamanı əzələlərdə ağrıların olması hansı turşunun toplanması ilə əlaqədardır?,nuklein turşularının,aminturşuların,süd turşusunun,yağ turşularının,fosfat turşusunun,C
+71,71. Gərgin əzələ fəaliyyəti zamanı əzələ toxumasında hansı mübadilə məhsulları toplanır?,nuklein turşuların mübadilə məhsulları,üzvi maddələrin tam oksidləşmiş mübadilə məhsullarır,aminturşuların mübadilə məhsulları,üzvi maddələrin tam oksidləşməmiş mübadilə məhsulları,yalnız qeyri-üzvi maddələrin mübadilə məhsulları,D
+72,72. Mühitin PH-nın turşuluğa doğru artması sinir hüceyrələrinə necə təsir göstərir?,sinir sistemində ATF-in parçalanmasını artırır,sinir toxumasında süd turşusunun miqdarını azaldır,sinir impluslarının əzələyə ötürülməsini aktivləşdirir,sinir impluslarının əzələyə ötürülməsini zəiflədir,heç bir təsir göstərmir,D
+73,73. Əzələ işi zamanı 100qr zülalların oksidləşməsindən nə qədər su əmələ gəlir?,90ml,50ml,40ml,100ml,10ml,C
+74,74. Gərgin əzələ işi zamanı yağların sərf olunması qanda hansı birləşmələrin miqdarına görə müəyyən olunur?,doymamış yağ turşuların,doymuş yağ turşuların,aminturşuların,keton cisimciklərin,yalnız zülalların,D
+75,75. Yorulma hərəkətin icrası zamanı hansı dəyişikliklərdən xəbər verən bioloji haldır?,fiziki və biokimyəvi,anatomik və biokimyəvi,funksional və biokimyəvi,funksional və anatomik,fiziki və anatomik,C
+76,76. Sürətli bərpa fazasında hansı maddələrin ehtiyatı bərpa olur?,aminturşular,KrF və zülallar,ATF və AMF,KrF və ATF,yağlar,D
+77,77. Əzələ işi zamanı 100qr karbohidratların oksidləşməsindən nə qədər su əmələ gəlir?,500ml,100ml,300ml,50ml,1000ml,D
+78,78. Bərpa dövründə metabolizm prosesi katabolizmdən hansı prosesə keçir?,anabolizm və dissimilyasiya,dissimilyasiya,anabolizmə,heç bir prosesə keçmir,ifrazetmə prosesinə,C
+79,79. Əzələ işindən sonra bərpa prosesində neçə faza vardır?,4,1,2,3,5,D
+80,80. Əzələlərdə qlikogenin superkompensasiyası hansı zaman müddətində bərpa olur?,2 gün,20 dəq,3 gün,30 dəq,5 gün,C
+81,81. Bərpa dövrünün ardıcıllığı necədir?,sürətli və ləng,"sürətli, ləng, uzunmüddətli","ləng, uzunmüddətli, sürətli","uzunmüddətli,sürətli, ləng",sürətli və uzunmüddətli,B
+82,82. Kimyəvi tərkibinə görə karbohidratlar hansı üzvi maddələrdir?,karbohidratlar yalnız polişəkər maddələridir və çoxatomlu spirtlərin polikondensasiya kimyəvi birləşmələridir,"karbohidratlar çoxatomlu spirtlərin aldehid, yaxud ketonların və ya onların polikondensasiya birləşmələridir",karbohidratlar aminşəkər maddələrdir və çoxatomlu spirtlərin kimyəvi birləşmələridir,karbohidratlar yalnız çoxatomlu spirtlərin polikondensasiya birləşmələridir,sadə polişəkər maddələridir və çoxatomlu spirtlərin aldehid və ya onların polikondensasiya birləşmələridir,B
+83,83. Karbohidratlar orqanizmdə əsasən hansı funksiyaları yerinə yetirir? 1.enerji 2.ehtiyat 3.katalitik 4.hormonal 5.nəqliyyat,"2,5","1,4","1,2","3,4","1,2,5",D
+84,84. Karbohidratlardan hansılar mono və disaxaridlər qrupuna aiddir?,"qlükoza, maltoza, qlikogen, pektin maddələri","qlükoza, fruktoza, nişasta, saxaroza","qlükoza, qaloktoza, heparin, inulin","qlükoza, riboza, saxaroza, laktoza","nişasta, inulin, saxaroza, heparin",D
+85,85. Aminşəkər maddələri hansı üzvi birləşmələrdir?,amin şəkərlər yalnız zülalların tərkibinə daxildir,tərkibində aminturşular olan üzvi maddələrdir,tərkibində amin qrupu olan monosaxaridlərdir,amin şəkərlər əzələ toxumasının əsasını təşkil edən maddələridir,tərkibində aminturşular olan monosaxarid maddələridir,C
+86,86. Homopolisaxaridlər qrupuna hansılar daxildir?,"xitin, riboza, saxaroza","heparin, fruktoza, nişasta","xitin, pektin maddələri","heparin, qlükoza, inulin","qlikogen, pektin maddələri",C
+87,87. Karbohidrat mübadiləsində qaraciyərin biokimyəvi rolu hansıdır?,öd turşularını sintez etməklə karbohidrat mübadiləsini tənzim edir,"qanda qlükozanın miqdarını sabit saxlamaqla, karbohidrat mübadiləsini tənzim edir",qanda süd turşusunu nişastaya çevirməklə karbohidrat mübadiləsini tənzim edir,polisaxaridləri sintez etməklə karbohidrat mübadiləsində iştirak edir,"qanda insulin hormonunun miqdarını sabit saxlamaqla, karbohidrat mübadiləsini tənzim edir",B
+88,88. Karbohidratlar necə təsnif olunur?,"monosaxaridlər, polisaxaridlər, disaxaridlər","oliqosaxaridlər, polimerlər, polisaxaridlər","monosaxaridlər, disaxaridlər, polisaxaridlər","monosaxaridlər, disaxaridlər, polimerlər","polisaxaridlər, polimerlər, disaxaridlər",C
+89,89. Saxaroza nədən təşkil olunmuşdur?,laktoza və qalaktoza,qalaktoza və nişasta,qlükoza və fruktoza,qlukozamin və maltoza,qlukozamin və riboza,C
+90,90. Laktoza nədən təşkil olunmuşdur?,qlükoza və laktoza,qlikogen və qalaktoza,qlükoza və qalaktoza,maltoza və qalaktoza,fruktoza və qalaktoza,C
+91,91. Hansı orqan qlikogen üçün depo ola bilər?,ürək,böyrək,dalaq,qaraciyər,öd kisəsi,D
+92,92. Hansı karbohidrat heyvani nişasta adlandırılır?,selluloza,nişasta,qlikogen,qlükoza,laktoza,C
+93,93. Kimyəvi tərkibində riboza karbohidratı olan birləşmə hansıdır?,keton cisimciklər,kreatinfosfat,adenozintrifosfat,kreatin,aminturşular,C
+94,94. Hansı maddə polisaxaridlərə aiddir?,laktoza,qlükoza,saxaroza,inulin,fruktoza,D
+95,95. Karbohidratların və yağların tərkibində hansı funksional qruplar vardır?,"CH2, CH3","COOH, C=O","OH, COH","OH, COOH","NH2, COOH",D
+96,96. Yağların və karbohidratların kimyəvi quruluşu hansı elementlərdən ibarətdir?,"C, H, O, Na","C, H, O, N","C, H, O","Cu, Zn, Ni","Cl, Br, J",C
+97,97. Yağlar canlı orqanizmdə hansı funksiyaları yerinə yetirir? 1.enerji 2.ehtiyat 3.hormonal 4.katalitik 5.qoruyucu 6.nəqliyyat,"1,2,5","3,4,6","1,2,4","1,5,6","1,2,3",A
+98,98. Yağlar haqqında səhv olanı göstərin?,mürəkkəb yağlar “lipoidlər” adlanır,orqanizmdə amin turşularından sintez olunurlar,"1 qr yağların oksidləşməsindən 9,3 kkal enerji əmələ gəlir",yağların qələvilərin iştirakı ilə hidrolizi sabunlaşma reaksiyası adlanır,"bitki yağları maye halında olur, heyvani yağlar isə bərk halda olur",B
+99,99. Mürəkkəb yağlar növünə hansı yağabənzər maddələr daxildir?,"lipoproteidlər, qlikolipidlər, steroidlər","fosfatidlər, qlikoproteidlər, steroidlər","fosfatidlər, qlikolipidlər, steroidlər","nukleoproteidlər, qlikolipidlər, mumlar","metalloproteidlər, flavoproteidlər",C
+100,100. Orqanizmdə keton cisimcikləri hansı üzvi maddənin mübadiləsi zamanı əmələ gəlir?,karbohidratların,zülalların,yağların,aminturşuların,polisaxaridlərin,C
+101,101. Neytral yağların əzələ toxumasında əsas rolu hansıdır?,hormonal,nəqliyyat,təqəllüs,enerji deposu,katalitik,D
+102,102. Triqliseridlər lipidlərin hansı qrupuna aiddir?,fosfatidlər,serebrozidlər,neytral yağlar,mumlar,amin turşusu,C
+103,103. Hansı maddə xolesterolun bağırsaqda sorulmasını yaxşılaşdırır?,tripsin,xlorid turşusu,öd turşuları,pepsin,enterokinaza,C
+104,104. Yağların həzmi əsasən harada başlayır?,yoğun bağırsağın aşağı hissəsində,mədədə,nazik bağırsaqda,yoğun bağırsağın üst hissəsində,ağız boşluğunda,C
+105,105. Mürəkkəb yağlar haqqında səhv olanı göstərin?,qlikolipidlər yağabənzər maddələrdir,mürəkkəb yağların tərkibində yalnız doymuş və doymamış yağ turşuları vardır,fosfatidlər yağabənzər maddələrdir,"mürəkkəb yağların tərkibində həm yağ turşuları, həm də başqa maddələr vardır",xolesterin və xolin maddələri yağabənzər maddələrdir,B
+106,106. Sutka ərzində orta yaşlı insanların yağlara olan təlabatı nə qədərdir?,100-150 qr,400-450 qr,80-100 qr,150-200 qr,250-300 qr,C
+107,"107. Zülallar orqanizmdə hansı funksiyaları yerinə yetirir? 1.energetik, ehtiyat 2.katalitik, təqəllüs 3.qoruyucu, nəqliyyat 4.sturuktur-inşaat 5.hormonal","1,2,3,4,5","1,2,3","1,2,3,4,6","1,2,3,4","2,3,5",A
+108,108. Hansı kimyəvi elementlər zülalların əsas kimyəvi quruluşunu təşkil edir?,"C, H, O","C, H, O, Ni","C, H, O, N","C, J, H, S, O","C, H,O,Na",C
+109,109. Zülallar üçün səhv olan ifadəni göstərin?,tərkibində yalnız aminturşular olan zülallar sadə zülallardır,mürəkkəb zülallar proteidlər adlanır,zülalların tərkibində nitrat turşusu vardır,sadə zülallar proteinlər adlanır,mürəkkəb zülalların tərkibində fosfat turşusu qalıqları vardır,C
+110,110. Sadə zülallara hansı maddələr aiddir?,"fosfoproteidlər, mukoproteidlər","qlikoproteidlər, albuminlər, qlobulinlər, metaloproteidlər","histonlar, protaminlər, albuminlər, qlobulinlər",yalnız nukleoproteidlər,"xromoproteidlər, qlobulinlər, flavoproteidlər",C
+111,111. Metalloproteidlər hansı üzvi maddələrdir?,molekuluna fosfat turşu qalığı daxil olan mürəkkəb zülallardır,"molekuluna Cl, Br, J elementləri daxil olan zülallardır",molekuluna müxtəlif metal elementləri daxil olan mürəkkəb zülallardır,molekuluna nuklein turşuları daxil olan mürəkkəb zülallardır,sadə zülallardır,C
+112,112. Hansı üzvi maddə orqanizmdə hormonal funksiyanı yerinə yetirir?,karbohidrat,zülal,lipid,kreatin,qlükoza,B
+113,113. Hansı maddə mürəkkəb zülaldır?,qlobulinlər,albuminlər,histominlər,fosfoproteid,protaminlər,D
+114,114. Hemoqlobinin tərkibinə hansı metal daxildir?,Al (3+),Cu (2+),Fe (2+),P (3+),Mn (2+),C
+115,115. Zülalların denaturasiyası neçə dərəcə istilikdə baş verir?,150-200,100-200,700-1000,300-350,500-1000,C
+116,116. İnsan orqanizmində zülalların ən çox olduğu nahiyyəni göstərin?,sümüklər,dişlər,əzələlər,mədəaltı vəzi,piy toxuması,C
+117,117. Zülal molekulunun birincili quruluşuna aid olan əsas rabitəni göstərin?,ion rabitəsi,mürəkkəb efir rabitəsi,karbon rabitəsi,peptid rabitəsi,hidrogen rabitəsi,D
+118,118. Sadə zülalların quruluş vahidini hansı maddə təşkil edir?,qlükoza,aminturşular,mononukletidlər,qliserin,dipeptid,B
+119,119.-S-S-kimyəvi rabitə necə adlanır?,peptid,mürəkkəb efir,disulfid,hidrogen,sadə efir,C
+120,120. Nuklein turşuları kimyəvi qurluşunu təşkil edən hansı üzvi maddələrə görə iki qrupa bölünür?,fosfat turşusuna,zülallara,karbohidratlara,yağlara,azot əsaslarına,C
+121,121. DNT-nin kimyəvi tərkibi hansı maddələrdən təşkil olunub?,azot əsaslarından və dezoksiribazadan,"azot əsası, fosfat turşusu və ribozadan",azot əsası və fosfat turşusu,"azot əsası, fosfat turşusu və dezoksiribozadan",fosfat turşusundan və ribozadan,D
+122,122. Hüceyrədə RNT-nin neçə növü olur?,4,2,1,3,5,D
+123,"123. Hansı ifadə həm DNT, həm də RNT molekulu üçün səhvdir?",hər ikisinin molekulunun tərkibində karbonat əsasları olmur,"həm DNT, həm də RNT molekulunun tərkibində fosfat turşusu qalığı vardır?",canlıların hüceyrələrində irsi məlumatları qoruyub saxlayırlar,"həm DNT, həm də RNT molekulunda karbohidrat qalığı vardır",irsi məlumatları nəsildən-nəsilə ötürmürlər,E
+124,124. Zülalların biosintezində hansı üzvi maddələr iştirak edir?,"aminturşular, RNT, KrF","aminturşular, DNT","aminturşular, DNT, RNT","aminturşular, KrF",DNT və RNT,C
+125,125. Eyni bir ribasom neçə cür zülal sintez edə bilər?,yalnız 1 ədəd,çoxlu miqdarda,10 ədəd,100 ədəd,5 ədəd,B
+126,126. Hüceyrənin hansı orqanoidlərində zülalların biosintezi baş verir?,sitoplazma,nüvə,ribosom,lizasom,mikrosom,C
+127,127. Hansı zülallar irsi xassələrin daşıyıcılarıdır?,qlobulinlər,nukleoproteidlər,albuminlər,fosfoproteidlər,transferrinlər,B
+128,128. RNT-nin tərkibinə hansı üzvi maddə daxildir?,fruktoza,qlükoza,riboza,mannoza,galaktoza,C
+129,129. Azot əsaslarından hansı DNT-nin tərkibinə daxil deyildir?,timin,quanin,urasil,adenin,sitozin,C
+130,130. İlk dəfə nuklein turşuları kim tərəfindən kəşf olunub?,N.L.Vavilov,M.Mişer,T.Morqan,S.S.Çetverikov,İ.P.Pavlov,B
+131,131. Fermentlər haqqında səhv olan ifadəni göstərin?,fermentlərin temperaturun dəyişilməsinə qarşı aslılığı termolabillik adlanır,kimyəvi reaksiyalarda katalizator rolunun oynayırlar,bioloji oksidləşmə fermentləri dissimilyasiya proseslərinin əsasını təşkil edir,fermentlər lipid tərkibli üzvü maddələrdir,fermentlər zülal təbiətli üzvi maddələrdir,D
+132,132. Ağız suyunda hansı fermentlər vardır?,"maltaza, saxaroza","amilaza, saxaroza","amilaza, maltaza","amilaza, maltaza",yalnız amilaza,C
+133,133. Kimyəvi elementlərdən hansı katalaza fermentinin tərkibində koferment rolunu oynayır?,Mg2+,Mn2+,Zn2+,Fe2+,Xr3+,D
+134,134. Qeyri-üzvi katalizatorlardan fərqli olaraq fermentlər hansı spesifikliyə malikdir?,hər bir ferment bir çox kimyəvi reaksiyaları kataliz edir,hər bir ferment yalnız bir kimyəvi reaksiyanı kataliz edir,fermentlər yalnız zülal tərkibli üzvü maddələri kataliz edir,fermentlər yalnız lipid mənşəli üzvü maddələri kataliz edir,bioloji aktivliyə malik deyildir,B
+135,135. Hansı ferment öz aktivliyini 1000°S temperaturda itirmir?,ureaza,laktatdehidrogenaza,miokinaza,katalaza,pepsin,C
+136,136. Hansı ferment 0-100°S temperaturda aktivlik göstərir?,sitoxromoksidaza,miokinaza,katalaza,alkaqoldehidrogenaza,ureaza,C
+137,137. Bu fermentlərdən hansı mədədə zülallara təsir göstərir?,tripsin,aminopeptidaza,ximotripsin,pepsin,karboksipeptidaza,D
+138,138. Hormonlar haqqında səhv olan ifadələri göstərin?,əsasən zülal təbiətli üzvü maddələrdən sintez olunurlar,yalnız sintez olunduğu vəzilərin funksiyasını tənzim edirlər,sintez olunduqları yerdən kənarda orqanizmin müxtəlif üzvlərinə təsir göstərirlər,xüsusi üzv və toxumalarda hazırlanaraq qana ifraz edilən fizioloji aktiv maddələrdir,hormonların fəaliyyəti sinir sistemindən asılıdır,B
+139,139. Steroid tərkibli hormonlar hansılardır?,boy artımı hormonu və kalsitonin,adrogenlər və estrogenlər,adrenalin və noradrenalin,oksitosin və vazopressin,insulin və qlükaqon,B
+140,140. Hormonların təsir mexanizminə hansı aid deyildir?,genetik aparata təsir göstərməklə fermentlərin sintezini tənzim edir,fermentlərin zülali hissəsinin əmələ gəlməsini tənzim edir,mineral maddələrin və vitaminlərin sintezində iştirak edir,fermentlərin koferment kompleksinin yaranmasını tənzim edir,hüceyrə membranlarından müəyyən maddələrin keçməsini tənzim edir,C
+141,141. Hansı hormon qanda qlükozanın miqdarını aşağı salır?,parathormon,adrenalin,insulin,AHTH,vazopressin,C
+142,142. Hansı xəstəlik zamanı hiperqlikemiya müşahidə olunur?,şəkərli diabet,bazedov xəstəliyi,addison xəstəliyi,qirke xəstəliyi,fenolketonuriya,A
+143,143. Hansı hormonlar zülalların əzələ toxumasında parçalanmasını gücləndirir?,"vazopressin, somatotropin",qlükokortikoidlər,"adrenalin, noradrenalin","insulin, somatostatin","vazopressin, oksitosin",B
+144,"144. Aşağıda verilən ifadələrdən hansılar düzgündür? 1.uzunmüddətli işlərin icrası zamanı katexolaminlərin mübadiləsi intensivləşir, məşq zamanı isə azalır 2.yüksək intensivli fiziki yükün təsiri altında qanda insulin hormonunun miqdarı artır, məşq zamanı isə aşağı enir 3.qanda qlükaqonun miqdarı tədricən artaraq işin sonunda maksimum səviyyəyə çatır 4.yüksək intensivli fiziki yükün təsiri altında qanda insulin hormonunun miqdarı sabit qalır 5.fiziki yükün təsiri altında qanda qlükaqon hormonunun miqdarı aşağı səviyyədə olur","2,3","1,2","4,5","2,5","1,3",E
+145,145. Qısamüddətli işin icrası zamanı hormonların ifrazı prosesi necə olur?,zəifləyir,sürətlənir,sabit qalır,sintez olmur,maksimal səviyyəyə çatır,B
+146,146. Uzunmüddətli işlərin icrası zamanı hormonların ifrazı prosesi necə olur?,sürətlənir,zəifləyir,submaksimal səviyyəyə çatır,maksimal səviyyəyə çatır,sabit qalır,B
+147,147. Əzələ işi zamanı qanda insulin hormonu necə dəyişir?,dəyişmir,artır,aşağı enir,maksimal səviyyədə olur,çox yuxarı qalxmır,C
+148,148. İntensiv əzələ işi zamanı qanın tərkibində hansı hormonun azalması müşahidə edilir?,noradrenalin,vazopressin,insulin,heç biri,qlükaqon,C
+149,149. Vitaminin orqanizmdə qismən çatışmazlığı ilə əlaqədar patoloji proseslər necə adlanır?,raxit xəstəliyi,avitaminoz,polihipovitaminoz,polivtaminoz,hipervitaminoz,B
+150,150. Hipervitaminoz nədir?,mineral maddələrin və vitaminlərin artıq dozada orqanizmə qəbul edilməsi,vitaminlərlə zəngin olan qida və dərman maddələrinin artıq dozada istifadə edilməsidir,yalnız 1 vitamin çatışmazlığıdır,ağır dərəcəli vitamin çatışmazlığıdır,vitaminlərlə zəngin olan qida və dərman maddələrinin az bir dozada istifadə edilməsidir,B
+151,151. Yağda həll olan vitaminlər hansılardır?,"D, E, K, C","A, D, E, K","B1, B2, B6","A, PP, B1","A, D, C",B
+152,152. Antioksidant xassəyə malik olan vitaminlər hansılardır?,"A, E, C, P","B2, B3, B6","B1, B6, B15","K, PP",yalnız C vitamini,A
+153,153. Vitaminlər hansı üzvi maddənin tərkibində koferment funksiyasını yerinə yetirir?,lipidlərin,nuklein turşuların,fermentlərin,karbohidratların,zülalların,C
+154,"154. Orqanizmdə vitaminlərin bioloji rolu hansılardır? 1.genlərin fəaliyyətinə, zülal biosintezinə və hüceyrə inkişafına müsbət təsir edirlər 2.antioksidant xassəyə malikdirlər və fermentlərin aktivliyini yüksəldirlər 3.antioksidant xassəyə malikdirlər və fermentlərin aktivliyinə təsir göstərmirlər 4.mineral maddələrin və aminturşuların biosintezində iştirak edirlər 5.mineral maddələrin, yağların və zülalların biosintezində iştirak edirlər","2,3","1,3","1,2","4,5","1,4",C
+155,155. Raxit xəstəliyi hansı vitamin çatışmadıqda baş verir?,E,A,D,K,C,C
+156,156. Gözün işığı hissetmə qabiliyyətinin tənzimində hansı vitaminin və üzvi maddənin rolu vardır?,E vitamini və kazein,C vitamini və qlükoza,A vitamini və opsin zülalı,D vitamini və opsin zülalı,K vitamini və riboza zülalı,C
+157,157. Hansı vitamin çatışmadıqda bədxassəli anemiya xəstəliyi baş verir?,A,C,B6,B12,PP,D
+158,"158. Qara qarağat, itburnu, yaşıl və qırmızı bibər, kahı, gül kələmi, kartof, portağal kimi meyvə tərəvəzlər ən çox hansı vitaminlə zəngindir?",B12,C,PP,E,B1,B
+159,159. Süd və süd məhsullarında hansı vitaminlər az miqdarda olur?,"C, P","A, D","A, E","K, E","B1,B6",E
+160,160. Avitaminoz nədir?,mineral maddələrin və vitaminlərin çatışmazlığı,hormonların çatışmazlığı,vitaminlərin çatışmazlığı,fermentlərin və vitaminlərin çatışmazlığı,vitaminlərin artıq olması,C
+161,161. Hansı vitaminlər suda həll olur?,"B, A, E, C","B, C, P, PP","A, E, D, K","A, E, D, C","D, K, C",B
+162,162. 100 m. məsafəyə qaçan zaman əzələlər hansı üzvi maddələr hesabına enerji ilə təmin olur?,"ADF, ATF","kreatinfosfat, qlikogen",aminturşular,yağlar,"qlükoza, yağ turşuları",B
+163,163. Əzələ toxumasının əsas enerji substratlarına hansı üzvi maddələr aiddir?,"hormonlar,vitaminlər, fermentlər","qlükoza, aminturşular, yağ turşuları","qlükoza, aminturşular, mineral maddələr","vitaminlər, aminturşular,mineral maddələr","kreatinfosfat, aminturşular,fermentlər",B
+164,164. İnsan orqanizminin hüceyrəsinin hansı orqanoidində yağ turşularının enerji mübadiləsi baş verir?,nüvə,mitoxondri,ribosom,mikrosoma,sitoplazma,B
+165,165. Çox uzaq məsafələrə qaçan idmançıların orqanizmində lipid mübadiləsi necə olur?,qanda xolesterinin və fosfatidlərin miqdarı çox yüksək olur,qanda yalnız sərbəst yağ turşularının miqdarı yüksək olur,qanda sərbəst yağ turşuların və fosfatidlərin miqdarı azalır,qanda sərbəst yağ turşuların və keton cisimciklərin miqdarı yüksəlir,qanda sərbəst yağ turşuların və keton cisimciklərin miqdarı azalır,D
+166,166. Üzvi maddələrin enerji mübadiləsinin son məhsulu hansıdır?,"NH2, H2O","SH, H2O","NO, H2O","CO2, H2O","CO, H2O",D
+167,167. İntensiv əzələ işi zamanı qanda hansı maddənin miqdarı maksimal səviyyəyə çata bilər?,ammonyakin,yağ turşularının,süd turşusunun,karbon qazının,amin turşularının,C
+168,168. Yüksək intensivli fiziki işlər zamanı yağların oksidləşməsi hansı prosesə görə az effektlidir?,aşağı sürətlə və daha az oksigen sərf etməklə oksidləşdiyinə görə,yalnız karbohidratların oksidləşməsində iştirak etdiyinə görə,aşağı sürətlə və daha çox oksigen sərf etməklə oksidləşdiyinə görə,yüksək sürətlə və daha az yağ turşuları sərf etməklə oksidləşdiyinə görə,yağlar parçalandıqda az miqdarda enerji ayrıldığına görə,A
+169,169. Əzələ işi zamanı biokimyəvi dəyişikliklərin xarakterinə görə fiziki hərəkətlər neçə qrupa bölünür?,4,5,3,2,7,C
+170,170. Lokal fiziki hərəkətlər zamanı orqanizmdə baş verən biokimyəvi dəyişikliklərin dinamikası necə olur?,çox yüksək olmur,sabit olur,maksimal səviyyəyə çatır,çox zəif olur,submaksimal səviyyəyə çatır,D
+171,171. Marafon qaçışından sonra idmançı orqanizmində hansı dəyişikliklər baş vermir?,su itkisi çox olur,sidikdə azotun miqdarı çox olur,su itkisi az olur,bərpa prosesləri 2-3 gün olur,bədən çəkisi aşağı düşür,C
+172,172. Əzələ işi zamanı orqanlarda və toxumalarda hansı biokimyəvi dəyişikliklər baş verir? 1.ürək əzələsində aerob reaksiyalar üstünlük təşkil edir 2.ürək toxumasında süd turşusu və piroüzüm turşusunun miqdarı azalır 3.sinir hüceyrələrində makroerqik fosfatın ehtiyatları tükənir 4.ürək əzələsində və sinir toxumasında asidoz halı çox az yaranır,"1,2","2,4","1,3","2,3","3,4",C
+173,173. Dözümlülüyün inkişafı üçün ən çox effektli metodlar hansılardır?,qısamüddətli məşq metodları,yalnız fasiləli məşq metodları,uzunmüddətli fasiləsiz fiziki iş və təkrar fasiləli məşq metodları,kreatinfosfatın və amin turşuların çox miqdarda qəbul edilməsi,yalnız uzunmüddətli fasiləsiz fiziki məşq metodları,C
+174,174. İdman məşqi prosesində əldə olunmuş adaptasiyanın effektliyi işin həcminin artmasından asılı olaraq necə dəyişir?,sabit qalır,azalır,çoxalır,maksimal şiddətə çatır,submaksimal şiddətə çatır,B
+175,175. Sidiyin qeyri-üzvi maddələrinə hansılar aiddir?,"difosfoqliserin, qliserin-stearat",piroüzüm turşusu və süd turşusu,"ammonium turşfosfat duzları, sulfat turşusunun duzları, bikarbonatlar","kreatin, kreatin fosfat və qlükoza fosfat","indol, skatol, fenol və krezol",C
+176,176. Qaçış zamanı sidiyin kimyəvi reaksiyası nə üçün qələviliyə doğru dəyişilir?,sidikdə amin turşuların miqdarı artdığına görə,sidikdə NaCl duzunun miqdarı artdığına görə,sidik cövhərinin parçalanması və ammonyakın ayrılmasına görə,sidikdə süd turşusunun və ammonyakın miqdarı artdığına görə,sidikdə fosfat duzlarının miqdarı artdığına görə,C
+177,"177. Əzələ işindən sonra sidiyin biokimyəvi xüsusiyyətlərinə hansılar aiddir? 1.sidikdə fosfatların miqdarı və kreatinin miqdarı artır 2.əzələ işindən sonra sidikdə ammonyakin miqdarı artır 3.əzələ işindən sonra sidikdə kreatinin miqdarı azalır 4.ammonyakın miqdarı azalır, fosfatların miqdarı isə artır 5.azotlu maddələrin miqdarı həmişə sabit qalır","3,4","1,3","2,4","1,4","1,2",E
+178,178. Çox uzaq məsafələrə qaçışın biokimyəvi xüsusiyyətlərinə hansılar aiddir?,qanda şəkərin miqdarının həmişə yüksək olması,yüksək enerji ehtiyatının toplanması,böyük enerji və su itkisinin itirilməsi,qanda insulin hormonunun çoxalması,O2 borcunun və ATF-in çoxalması,C
+179,179. İdman oyunları növünün ən xarakterik biokimyəvi xüsusiyyətləri hansıdır?,az miqdarda enerji itkisi verməsidir,orqanizmdə suyun itirilməsi və onunla bağlı çəkinin azalmasıdır,qeyri-emosional şəraitdə adrenalinin artmasıdır,maddələr mübadiləsinin zəifləməsidir,O2 borcunun olmamasıdır,B
+180,180. Uzunmüddətli idman məşqi zamanı enerji mənbəyi kimi hansı maddələr səfərbər olunur?,"fosfat turşusu, yağ turşuları",yalnız sərbəst yağ turşuları,"sərbəst yağ turşuları, keton cisimcikləri",piroüzüm turşusu,süd turşusu,C
+181,181. Güləş idman növünün biokimyəvi xüsusiyyətlərinə hansılar aiddir? 1.anaerob və aerob oksidləşmə prosesləri daima bir-birini əvəz edir 2.qanda süd turşusunun miqdarı çox az olması 3.qanda adrenalinin və şəkərin miqdarı yüksək olur 4.qanda insulinin miqdarının yüksək olması,1,3,2,"1,2","2,4",A
+182,182. İnkişafda olan orqanizmin biokimyəvi xüsusiyyətləti hansılardır? 1.orqanizm bütün həyatı boyu biokimyəvi və funksional dəyişikliklərə məruz qalır 2.uşaq orqanizminin inkişafı zamanı assimilyasiya prosesi daha intensiv sürətdə gedir 3.orta yaş orqanizmlərdə assimilyasiya və dissimilyasiya prosesi zəif gedir 4.orqanizm bütün həyatı boyu yalnız fiziki və funksional dəyişikliklərə məruz qalır 5.orqanizm yalnız biokimyəvi dəyişikliklərə məruz qalır,"1,2","2,5","3,4","2,4","1,3",A
+183,183. Hansı yaş dövründə zülalların biosintezi üstünlük təşkil edir?,uşaqlıq dövründə,qoca yaşlı insanlarda,orta yaş,yeniyetmə dövründə,yalnız idmanla məşğul olan insanlarda,A
+184,184. Qocalıq dövründə zülal sintezinin zəifləməsinə səbəb olan biokimyəvi amillər hansıdır?,amin turşuların hüceyrədə çatışmazlığıdır,keyfiyyətsiz qidalanmadır,zülal tərkibli qida maddələrinin az qəbul edilməsi,hüceyrənin nüvəsində yerləşən DNT molekullarının çatışmazlığı,zülal və kreatinin hüceyrədə azalmasıdır,D
+185,185. Qidaya kreatinin daxil edilməsi fiziki iş qabiliyyətinə necə təsir edir?,zəiflədir,normal səviyyədə saxlayır,yüksəldir,müvəqqəti olaraq aşağı salır,heç bir təsir göstərmir,C
+186,186. İnsanın fiziki iş qabiliyyəti hansı amildən aslıdır?,qələvi maddələrdən,hormonların aktivliyindən,yaş dövrlərindən,fermentlərinin aktivliyindən,turş maddələrdən,C
+187,187. Qısamüddətli qida çatışmazlığı zamanı orqanizm hansı makroergik maddələrdən istifadə etməyə başlayır?,vitaminlərdən,kreatin fosfatdan,karbohidrat və yağlardan,zülal və yağlardan,hormonlardan,C
+188,188. Uzunmüddətli qida çatışmazlığı zamanı orqanizm hansı enerji maddələrindən istifadə etməyə başlayır?,zülallardan və yağlardan,yalnız yağlardan,"zülal, yağ və qlikogendən",yalnız ADF-dən,yalnız zülallardan,C
+189,189. Hansı məhsullarda xolesterin yoxdur?,alma şirəsi,yumurta,xama,mal əti,qaraciyər,A
+190,190. Orta yaşlı insanların sutka ərzində heyvani zülallara təlabatı necədir?,70-100 qr,400-450 qr,150-200 qr,200-250 qr,100-150 qr,A
+191,191. Sutka ərzində orta yaşlı insanların karbohidratlara təlabatı nə qədərdir?,70-100qr,200-230qr,150-200qr,100-150qr,50-70qr,D
+192,"192. Yağlara, zülallara və karbohidratlara görə normal fizioloji kalorimetrik enerji əmsallarını göstərin?","yağlar– 9,3kkal, zülallar–5,4kkal, karbohidratlar–4,1kkal","yağlar–5,4kkal, zülallar–5,4kkal, karbohidratlar–5,4kkal","yağlar–9,3kkal, zülallar–4,1kkal, karbohidratlar–4,1kkal","yağlar–9,3kkal, zülallar–4,1kkal, karbohidratlar–5,4kkal","yağlar–6,4kkal, zülallar–4,1kkal, karbohidratlar-4,1kkal",C
+193,193. Qidanın köməyi ilə orqanizmdə hansı biokimyəvi proseslər baş verir? 1.energetik mübadilə təlabatı ödənilir 2.assimilyasiya prosesləri sürətlə gedir 3.plastik mübadilə təlabatı ödənilmir 4.dissimilyasiya prosesləri çox zəif gedir 5.assimilyasiya prosesləri çox zəif gedir,"1,2","1,4","2,3","3,5","2,4",A
+194,194. İdmanda işgörmə qabiliyyətinin yüksəldilməsi üçün hansı metodlardan və maddələrdən istifadə olunur? 1.dopinqlər və dopinq metodlarından 2.psixoloji metodlar və qida əlavələrindən 3.qida əlavələri və mineral maddələrdən 4.yalnız mineral maddələrdən,"1,3",2,"1,2",3,"1,4",C
+195,195. İnsan orqanizminə xüsusi zərər vuran və nəzarətə ehtiyacı olan vasitələr hansılardır?,vitamin kompleksi,psixoloji metodlar,mexaniki amillər,dopinqlər,hormon və ferment preparatları,D
+196,196. Dopinq maddələri hansı funksiyanı yerinə yetirir? 1.ürək işinin funksiyasını artırır 2.qaraciyərin funksiyasını nizama salır 3.müvəqqəti olaraq idmançıların iş görmə qabiliyyətini yüksəldir 4.DNT və RNT-in biosintezinə müsbət təsir göstərir,2,"3,4","1,3",3,1,D
+197,197. İdmançının orqanizmində dopinqin olması təsdiqlənərsə hansı hadisə baş verə bilər?,idmançı dünya yarışlarına göndərilir,idmançı xəstəxanaya aparılır və müalicə edilir,idmançı Olimpiya Oyunlarından xaric olunur,idmançı yalnız ölkədaxili yarışlardan xaric olunur,idmançı avropa çempionatlarına göndərilir,C
+198,198. İdmanda dopinq vasitələrindən ən çox hansıları qəbul olunur?,betta-blakatorlar,psixostimulyatorlar,anabolik steroidlər,narkotik maddələr,diuretiklər,C
+199,199. Dopinqlərin müntəzəm qəbul edilməsi orqanizmdə hansı proseslərin əmələ gəlməsinə səbəb olur? 1.qaraciyərin serrozuna və ürəyin zəifləməsinə 2.immun sistemin zəifləməsinə 3.daxili sekressiya vəzilərinin funksiyasının artmasına 4.zülalların biosintezinin artmasına 5.nuklein turşularının biosintezinin güclənməsinə,"1,3","1,2","2,3","3,4","4,5",B
+200,200. Hansı analizlər Beynəlxalq Olimpiya Komitəsinin tələblərinə görə orqanizmdə dopinqin olmasını göstərir?,əzələ,nəcis,tüpürcək,toxuma mayesi,"qan, sidik",E
+201,201. Sürətli məşq effekti zamanı yaranan biokimyəvi dəyişikliklr nə zaman müşahidə edilir?,işdən 5-6 saat sonra,məşqin gedişində və məşqdən sonrakı 1-2 saat müddətində,işdən 2-3 gün sonra,çoxillik məşqlərdən sonra,5-6 saat istirahətdən sonra,B
+202,202. Əzələ işi zamanı oksigen tələbatının yüksəlməsi:,qorunmuş məşq effektidir,kumulyativ məşq effektidir,sürətli məşq effektidir,superkompensasiyon effektidir,uzunmüddətli məşq effektidir,C
+203,203. Kumulyativ məşq effekti zamanı yaranan biokimyəvi dəyişikliklər orqanizmdə nə zaman müşahidə edilir:,məşqin gedişindən və məşqdən sonra bərpanın ilk saatlarında,məşqdən 2-3 gün sonra,məşqdən 5-6 saat sonra,çoxillik idman məşqlərindən sonra,uzunmüddətli intensiv məşqlərdən sonra,D
+204,204. Əzələ fəaliyyəti zamanı qanda Ph azalması nəyi əks etdirir?,uzunmüddətli məşq effektini,kumulyativ məşq effektini,qorunmuş məşq effektini,sürətli məşq effektini,əlavə məşq effektini,D
+205,205. Saxlanılan məşq prosessi zamanı orqanizmdə yaranan biokimyəvi dəyişikliklər müşahidə olunmağa başlayır:,uzunmüddətli intensiv məşqlərdən sonra,məşqin gedişində və ondan sonrakı bərpa dövrünün 1-2 saatlarında,işin icrasından 5-6 saat sonra,çoxillik məşqlərdən sonra,məşqlərdən 1-2 gün sonra,E
+206,206. Əzələ işi zamanı yaranan hipertrofiya:,kumulyativ məşq effektidir,saxlanılan məşq effektidir,sürətli məşq effektidir,əlavə məşq effektidir,uzunmüddətli məşq effektidir,C
+207,207. Çoxillik məşqlərdən sonra yaranan əzələ hipertrofiya:,karbohidratların və vitaminlərin qəbulunun artması,saxlanılmış məşq effekti,sürətli məşq effekti,məşqlərdən sonra zülalların,kumulyativ məşq effekti,E
+208,208. Əzələ fəaliyyəti zamanı baş verən hipertrofiya:,saxlanılmış məşq effektidir,kumulyativ məşq effektidir,sürətli məşq effektidir,heyvan mənşəli zülalların qəbulunun güclənməsindən,məşqdən sonra karbohidrat və yağların qəbulunun artmasından,C
+209,209. Bərpa dövründə yaranan superkompensasiya:,idman iş qabiliyyətinin azalması,məşq dövründə maddələrin parçalanmasının güclənməsi,saxlanılmış məşq effektidir,kumulyativ məşq effekti,sürətli məşq effekti,C
+210,210. Çoxillik məşqlərdən sonra əzələ hüceyrələrində mitoxondrilərin sayının artması:,sürətli məşq effekti,kumulyativ məşq effekti,saxlanılmış məşq effekti,uzunmüddətli məşq efekti,təkrarlanan məşq effekti,B
+211,211. Qüvvə keyfiyyətinin biokimyəvi əsası nədir?,"təqəllüs zülalları, aktivliyi və hipertrofiyaya uğramış əzələ hüceyrələrin toxuma tənəffüsünün imkanları",təqəllüs zülalı aktin və onun ATF-aza,əzələlərin təqəllüs və mitoxondrial elementləri və ATF tənəffüs imkanları,aktin və miozin miofibrillərinin və onların arasında olan körpücüklərin miqdarı,"təqəllüs zülalı miozin, əzələ kütləsinin artması və ATF-aza aktivliyi",E
+212,212. Sürətin biokimyəvi əsasını nə təşkil edir:,miozinin ATF-aza aktivliyi və kimyəvi enerjinin sürətli olunması,aktinin ATF-aza aktivliyi və kimyəvi enerjinin sürətli səfərbər olunması,miozin-aktin kompleksinin ATF-aza aktivliyi və kimyəvi enerjinin ləng səfərbər olunması,aktin-miozin kompleksinin ATF-aza aktivliyi və kimyəvi enerjinin sürətli səfərbər olunması,yavaş təqəllüs edən liflərin sayı və miozinin ATF-aza aktivliyi,A
+213,213. Uzunmüddətli işlərə qarşı dözümlüyün biokimyəvi əsaslarını nə təşkil edir:,aerob yolla sürətli yığılan liflərdə ATF resintezi və oksigen borcunun artması,oksigenli-aerob yolla resintez olunan fosfogenlərin potensial energetik imkanlarından və orqanimzmin ümumi energetik ehtiyyatlarından,sürətli yığılan liflərdə ATF aerob resintezi və orqanizmdə OMS-nın ölçüsü,orqanizmin tənəffüs imkanları və ATF anaerob-aerob resintezi,qlikolitik mexanizmlərdə uzunmüddətli işlər zamanı ATF anaerob resintezinin potensial imkanları,B
+214,214. Sürətli yığılan nazik ağ əzələ liflərinin tərkibinə daxildir,"miozin, aktin, troponin","aktin, miozin, mioqlobin","aktin, troponin, tropomiozin","tropomiozin, aktin, miozin","miozin, hemoqlobin, mioqlobin",C
+215,215. Əzələ təqəllüsünün başlanmasının əsas səbəbi,miositlərdə laktatın qatılığının artması,ATF hidrolizi,miofibrillərin nazik və yoğun arasında köndələn körpücüklərin yaranması,sarkoplazmada Ca2+ ionlarının qatılığının yüksəlməsi,sitoplazmada qlikoqenin qatılığının çoxalması,D
+216,216. Hərəki sinirin impulsu nəyə səbəb olur:,sarkoplazmada Ca2+ ionlarının qatılığının azalması,sarkoplazmada Ca2+ ionlarının qatılığının artması,ATF hidrolizi,aktinlə miozin arasında qarşılıqlı təsir,sarkoplazmada ADF artması,B
+217,217. Marafon qaçışlarında yorulmanın inkişafına səbəb nədir,əzələlərdə toxuma tənəffüsünün sürətinin enməsi,əzələlərdə suyun miqdarının azalması və hipoksiyanın inkişafı,qanda süd turşusunun toplanması,sidik cövhərinin qanda qatılığının azalması,əzələlərdə kreatin fosfatın qatılığının enməsi,A
+218,218. ATF resintezinin imkanlarını sidiklə xaric olunan hansı maddəyə görə qiymətləndirilir?,sidik turşusunun,aminturşularının,kreatinin,sidik cövhərinin,qlükozanın,C
+219,219. ATF resintezinin laktat yolunun imkanlarının sürətinin yüksəlməsinə hansı hormon təsir edir?,aldesteron,adrenalin,insulin,testesteron,tiroksin,B
+220,220. Yağlar ATF hansı yolla resintezi üçün enerji mənbəyidir,adenilamkinaza,anaerob,laktat,alaktat,aerob,E
+221,221. İdmançılarda sakitlik vaxtı acqarına qanda qlükozanın qatılığı,1-2 mMol/l,4-6 mMol/l,8-10 mMol/l,12-14 mMol/l,15-20 mMol/l,B
+222,222. Yağ turşularının parçalanmasının aralıq məhsullarına aiddir,karbon qazı,qliserin,vitamin,keton cisimciklər,sidik cövhəri,D
+223,"223. Qida rasionunda zülalların, yağların və karbohidratların nisbəti necə olmalıdır?",1:02:01,1:01:01,1:03:04,1:02:03,0.155555556,E
+224,224. Dopinqlərə aiddir:,karotin,karnitin,eritropoetin,asparigin turşusu,vitamin,C
+225,225. Qan dopinqlərindən nə üçün istifadə edilir,anaerob iş qabiliyyətinin yüksəldilməsi üçün,alaktat iş qabiliyyətinin yüksəldilməsi üçün,laktat iş qabiliyyətinin yüksəldilməsi üçün,aerob iş qabiliyyətinin yüksəldilməsi üçün,zehni iş qabiliyyətinin yüksəldilməsi,D
+226,226. Dopinq prosedurasına aiddir,inqalasiya,autotreninq,bədəni möhkəmlətmək,qan köçürmə,barokameralardan istifadə,D
+227,227. Aşağıda sədalananların hansılar doppinqlərdir,Vitaminlər,immunostimulyatorlar,heptanoprotektorlar,adaptogenlər,psixostimulyatorlar,E
+228,228. Aşağıdan preparatlardan hansıları dopinqlərə aiddir,vitaminlər,diuretiklər,aminturşular,Vitaminlər,antihipoksantlar,B
+229,229. Anabolik steroidlər hansı prosesin gücləndirilməsi üçün doppinq kimi istifadə olunur,zülalların parçalanmasını,qlikogenin,zülalların sintezini,yağların oksidləşməsini,qlükozanın oksidləşməsini,C
+230,230. Dopinq kimi eritripoetin nə üçün istifadə edilir,anaerob iş qabiliyyətini yüksəltmək,aerob iş qabiliyyətini yüksəltmək,laktat iş qabiliyyətini yüksəltmək,alaktat iş qabiliyyətini yüksəltmək,zehni iş qabiliyyətini yüksəltmək,B
+231,231. İdmanşılarda doppinq nəzarətini aparmaq üçün bioloji mayelərdən nümunələri idmançılara bildirişdən sonra nə vaxta qədər götürülməlidir?,3 saata,1-10 dəq,1 saata,2 saata,40 dəq,E
+232,232. Sarkoplazmatin şəbəkənin çəlləklərində hansı ionlar toplanır?,H+,K+,Cl-,Ca2+,Na+,D
+233,233. Əzələdə hansı zülalının tərkibində dəmir olur?,kollagenin,aktinin,miozinin,fibrinogenin,mioqlobinink,E
+234,234. Əzələ təqəllüsünün baş verməsi üçün sarkoplazmada nəyin olması mütləqdir,ATF və Ca2+,ATF və KRF,qlikogen və kreatinfosfat,Ca2+ və N+,aktin və kreatinfosfat,A
+235,235. Miozinin ATF-azanın aktivliyi hansı qarşılıqlı təsir zamanı yüksəlir,KRF,ADF,aktinlə,ATF,AMF,C
+236,236. Oksigenin maksimal sərfi (OMS) nəyin maksimal sürətini xarakterizə edir,adenilatkinaza reaksiyasının,qlikolizin,kreatinfosfat reaksiyasının,toxuma tənəffüsünün,miokinaza reaksiyasının,D
+237,237. Marafon qaçışlarında əsas enerji mənbəyi,toxuma tənəffüsü,qlikoliz,kreatinfosfat reaksiyası,adenilatkinaza reaksiyası,miokinaza reaksiyası,A
+238,238. Aerob iş qabiliyyəti əsasən əzələdəkilərin hansının miqdarından daha çox asılıdır,ribosomların,mitoxondrilərin,lizosomların,holci aparatının,miofibrillərin,B
+239,239. Hansı yüklərin icrası zamanı əsas enerji mənbəyi qlikoqen hesab olunur,böyük,maksimal,submaksimal,mülayim,hüdud,C
+240,240. ATF aerob resintezi həyata keçir,qlikogenin süd turşusuna qədər parçalanması,qlikogenin CO2 və H2O qədər parçalanması,yağların hidrolizi zamanı,ATF 2 molekulunun qarşılıqlı təsirində,zülalların hidrolizində,B
+241,241. ATF resintezinin əsas yoludur,qlükozanın parçalanması,toxuma tənəffüsü,qlikogenin CO2 və H2O qədər parçalanması,ADF iki molekulunun qarşılıqlı təsiri,qlikogenin süd turşusuna qədər parçalanması,E
+242,242. ATF laktat yolu ilə resintezinin sürətinin yüksəlməsinə təsir edir,aldesteron,parathormon,adrenalin,testosteron,tipoksin,C
+243,243. Keton cisimcikləri ATF hansı yolla resintezində enerji mənbəyi hesab olunur?,alaktat,laktat,aerob,anaerob,adenilatkinaza,C
+244,244. Orta məsafələrə qaçışda əsas enerji mənbəyi nədir?,adenilatkinaza reaksiyası,kreatinfosfat reaksiyası,qlikoliz reaksiyası,toxuma tənəffüsü,miokinaza reaksiyası,C
+245,245. Kreatinfosfat sadalanan şiddət zonalarında iş zamanı əsas enerji mənbəyidir,1500 m,800 m,100 m,5000 m,10000 m,C
+246,246. Sədalanan şiddət zonalarından hansında işin icrasında əsas enerji mənbəyi kreatinfosfat reaksiyası hesab olunur,mülayim,maksimal,böyük,orta,hüdud,B
+247,247. İş qabiliyyətinin laktat komponenti işin hansı zonada həyata keçirilir,maksimal,submaksimal,mülayim,az,böyük,B
+248,248. 10000 m məsafəyə qaçış zamanı əsas enerji mənbəyi,miokinaza reaksiyası,qlikoliz,kreatinfosfat reaksiyası,adenilatkinaza reaksiya,toxuma tənəffüsü,E
+249,249. Əzələ zülallarının parçalanması hansı yüklərin icrası zamanı daha intensiv olur?,sürətli,qüvvə,aerob,anaerob,hüdud,B
+250,250. Alaktat iş qabiliyyətinin inkişafına səbəb olan yüklərin tətbiqi aşağıdakılardan hansına gətirib çıxarmalıdır,əzələlərdə qlikogenin qatılığının azalmasına,əzələlərdə laktatın qatılığının yüksəlməsinə,əzələlərdə mioqlobinin qatılığının azalmasına,qanda yağ turşularının qatılığının azalmasına,əzələlərdə kreatinfosfatın qatılığının azalmasına,E
+251,251. Qüvvə keyfiyyətinin inkişafına yönəldilmiş yüklər əzələlərdə nəyin zədələnməsinə səbəb olur,lizosomların,miofibrillərin,membranların,mitoxondrilərin,holci aparatının,B
+252,252. Laktat iş qabiliyyətinin inkişafına təsir edən yüklər nəyə gətirib çıxarmalıdır?,əzələlərdə laktatın qatılığının enməsinə,qanda qlükozanın qatılığının yüksəlməsinə,əzələlərdə laktatın qatılığının artmasına,əzələlərdə mioqlobinin qatılığının yüksəlməsinə,qanda yağ turşularının qatılığının artmasına,C
+253,253. 10000 m məsafəyə qaçanlarda yorulmanın baş verməsinin əsas səbəbi:,sidik cövhərinin qatılığının qanda yüksəlməsi,kreatinfosfatın qatılığının əzələlərdə azalması,süd turşusunun qatılığının əzələlərdə çoxalması,əzələlərdə toxuma tənəffüsünün enməsi,qanda qlükozanın qatılığının yüksəlməsi,D
+254,254. Qanda turşuluğun maksimal yüksəlməsi hansı yüklərin icrası zamanı baş verir?,aerob-anaerob,alaktat,aerob,anaerob,laktat,E
+255,255. Maksimal şiddət zonasında yorulmanın baş verməsinin əsas səbəbi:,qanda süd turşusunun toplanması,əzələlərdə kreatinfosfatın qatılığının azalması,qanda qlükozanın qatılığının azalması,əzələlərdə toxuma tənəffüsünün sürətinin enməsi,əzələlərdə qlikogenin qatılığının enməsi,B
+256,256. Hansı intensivlik zonasında icra olunan yüklərin icrası əzələlərdə kreatinfosfat ehtiyyatlarının sürətli tükənməsinə səbəb olur:,böyük şiddətli,submaksimal şiddətli,maksimal şiddətli,mülayim şiddətli,minimal şiddətli,C
+257,257. Yorulma müvəqqəti olaraq nəyin azalmasıdır?,qanda süd turşusunun,oksigen tələbatının,qanda sidik cövhərinin,iş qabiliyyətinin,qanda qlükozanın,D
+258,258. Mülayim şiddət zonasında icra olunan iş zamanı yorulmanın baş verməsinin əsas səbəbi:,qanda süd turşusunun qatılığının enməsi,əzələlərdə toxuma tənəffüsünün sürətinin azalması,qanda sidik cövhərinin qatılığının enməsi,əzələlərdə kreatinfosfatın qatılığının azalması,qanda yağ turşularının qatılığının enməsi,B
+259,259. Qanda süd turşusunun toplanması hansı şiddət zonasından işin icrası zamanı yorulmanın yaranmasının əsas səbəbidir,böyük,maksimal,submaksimal,maksimala yaxın,mülayim,C
+260,260. Alaktat yüklərin icrası zamanı yorulmanın baş verməsinin əsas səbəbi:,əzələlərdə kreatinfosfatın qatılığının azalması,əzələlərdə toxuma tənəffüsünün sürətinin enməsi,əzələlərdə qlükozanın qatılığının azalması,qanda süd turşusunun toplanması,qanda qlikogenin qatılığının azalması,A
+261,261. İşin icrası zamanı sərf olunan enerji substratları hansı ardıcıllıqla bərpa olunur:,"kreatinfosfat, zülallar, yağlar","kreatinfosfat, qlikogen, yağlar","zülallar, yağlar, kreatinfosfat","yağlar, zülallar, kreatinfosfat","zülallar, karbohidratlar, kreatinfosfat",B
+262,262. Alaktat oksigen:,alaktat yükün icrası zamanı tələb olunan oksigenin həcmi,alaktat yüklərin icrasından sonra 1 saat müddətində tələb olunan oksigenin həcmi,alaktat yüklərin icrasından sonra 4-5 dəqiqə müddətində tələb olunan oksigenin həcmi,işin icrasına qədər tələb olunan oksigenin həcmi,alaktat işin icrasından 30 dəqiqə sonra tələb olunan oksigenin həcmi,C
+263,263. Laktat oksigenin borcunun təyin olunması üçün oksigen tələbatını nə zaman ölçmək lazımdı?,laktat yüklərinin icrasından sonra 2-3 saat ərzində,laktat yüklərinin icrası gedişində,laktat yüklərinin icrasından 4-5 dəqiqə ərzində,laktat yüklərinin icrasından 60-90 dəqiqə ərzində,laktat yüklərinin icrasından bir gün sonra,D
+264,264. Əzələ daxilində hüceyrələr arasında oksigeni nəql edən zülal,hemoqlobin,mioqlobin,aktin,miozin,fibrinogen,B
+265,265. Əzələ hüceyrələrinin başlıca karbohidratı hansıdır?,riboza,qlükoza,qlikoqen,fruktoza,laktoza,C
+266,266. Əzələlərdə qlikogenin sintezini sürətləndirən hormon hansıdır?,ortikosteron,adrenalin,insulink,testosteron,somatotropin,C
+267,267. Əzələlərdə zülallarının sintezini hansı hormon gücləndirir?,tiroksin,adrenalin,aldosteron,somatotropin,insulin,D
+268,268. Yavaş yığılan qırmızı miofibrillərin tərkibinə hansı zülal daxildir?,hemoqlobin,mioqlobin,tropomiozin,troponin,miozin,E
+269,269. Əzələlərin aerob dözümlüyü orqanoidlərdən hansından daha çox asılıdır?,ribosomlardan,mitoxondrilərdən,lizosomlardan,miofibrillərdən,mioqlobindən,B
+270,270. Qanda süd turşusunun qatılığının çoxalması nəyə səbəb olur?,hiperqlikemiya,alkaloza,asidoza,hipoqlikemiya,anuriyaya,C
+271,271. Sidikdə qlükozanın aşkarlanmasına nə adlanır?,protenuriya,asidoza,hematuriya,qlükozuriya,anuriya,D
+272,272. Ağır fiziki yüklərdən sonra sidikdə hansı maddə aşkarlana bilər?,kreatinin,qlükoza,sidik turşusu,riboza,zülal,E
+273,273. Miofibrillərdəki hansı zülal fermentativ xüsusiyyətə malikdir?,aktin,miozin,tropomiozin,trononin,xemotripsin,B
+274,274. Miozin nəyin tərkibində olur?,ribosomun,lizosomun,mitoxondrinin,miofibrillərin,holci aparatının,D
+275,275. Əzələ boşalmasında iştirak edən zülal:,xemotripsin,albumin,qlobulin,trononin,kollaqen,E
+276,276. Sürətli adaptasiya zamanı hansı qrup hormonlar biokimyəvi dəyişikliklərə təsir edir?,androgenlər,katexolaminlər,somototropin,estrogenlər,insulin,B
+277,277. A vitamini başqa cür necə adlanır?,kalsiferol,retinol,tiamin,tokoferol,askorbin turşusu,B
+278,278. İdmançı qidasında C vitamininə olan gündəlik tələbat nə qədərdir?,1-2mq,50-100mq,5-6mq,10-11mq,11-15mq,B
+279,279. Nad kofermentinin tərkibinə hansı vitamin daxil olur?,C,A,PP,D,E,C
+280,280. Fol turşusunun orqanizmdə çatışmazlığı zamanı hansı xəstəlik yaranır?,sinqa,dermatit,raxit,qan azlığı,toyuq korluğu,D
+281,281. Metabolizm nədir:,zülalları əmələ gətirən mürəkkəb kimyəvi reaksiyalar,mürəkkəb maddələrin parçalanmasına və əmələ gəlməsinə yönəlmiş mürəkkəb kimyəvi reaksiyaların məcmusu,mürəkkəb maddələrin daha sadələrə parçalanması prosesi,zülalların parçalanması prosesi,parçalanmamış qalıqların orqanizmdən kənarlaşdırılması,B
+282,282. Anabolizm və katabolizm arasındakı fərq:,"anabolizm maddələr mübadiləsini ləngidir, katabolizm - sürətləndirir","katabolizm zamanı maddələr parçalanır, anabolizm zamanı makromolekulyar maddələr sintez olunur","anabolizm prosesində maddələr parçalanır, katabolizmdə isə yeni maddələr sintez olunur","katabolizm maddələr mübadiləsini ləngidir, anabolizm sürətləndirir","katobolizmdə qlükoza sintez olunur, anabolizmdə qlükoza piruvata qədər oksidləşir",B
+283,283. Katabolizmin ilk mərhələsində baş verir:,qliserinin oksidləşməsi,piruvatın oksidləşməsi,polimerlərin monomerlərə parçalanması,yağ turşularının oksidləşməsi,karbon turşularının parçalanması,C
+284,284. Katabolizmin son mərhələsi:,qlükoza oksidləşməsi,yağ turşularının oksidləşməsi,qliserinin oksidləşməsi,piruvatın oksidləşməsi və Krebs dövrü,polimerlərin parçalanması,D
+285,285. Katabolizmin ilk mərhələsi harada baş verir?,hüceyrəarası boşluqda,mitoxondriyada,nüvədə,mikrosomlarda,"mədə-bağırsaq traktında, lizosomlarda",E
+286,286. Hansı birləşmə makroergik rabitəyə malikdir:,sitrat,asetil-KoA,piruvat,laktat,3-fosfoqliserat,B
+287,287. Katabolizmanın 2-ci mərhələsində:,hidrogen tənəffüs zəncirinə daxil olur,laktat qlükoza çevrilir,monomerlər karbon turşularına qədər parçalanır,zülallar amin turşularına parçalanır,yağların qliserinə parçalanması,C
+288,288. Orqanizmdə kalsium ionlarının əsas funksiyaları,hüceyrə membranlarında elektrokimyəvi potensialın yaradılması,turşu-qələvi balansının tənzimlənməsi,makroergig rabitələrin sintezində iştirak,sinir impulsunun ötürülməsində və qanın laxtalanma prosesində iştirak,hüceyrədaxili lokalizasiya,D
+289,289. Natrium ionlarının orqanizmdə əsas funksiyaları:,toxuma tənəffüsündə iştirak (elektron köçürülməsi),"osmotik təzyiqin saxlanılması, maddələrin membrandan daşınmasında iştirak",əzələ yığılmasında iştirakı,oksidləşdirici fosforlaşma reaksiyalarında iştirak,qanın laxtalanma prosesində iştirak,B
+290,290. Orqanizmdə fosfor ionlarının əsas funksiyaları:,qanın laxtalanma proseslərində iştirakı,qanda onkotik təzyiqin saxlanılması,makroergik rabitələrin sintezində iştirak,sinir impulsunun ötürülməsində iştirakı,sinir-əzələ qıcıqlanmasında iştirak,C
+291,291. Orqanizmdə həddindən artıq suyun toplanması nəyə səbəb olur:,qlomerulyar filtrasiyanın sürətlənməsinə,kalium ifrazının artmasına,natrium ifrazının artmasına,plazma həcminin artmasına,renin-angiotenzin–aldestron sintezinin artması,B
+292,292. Kalium ionu üçün xarakterik olan nədir?,əzələlərin yığılmasında iştirak,hüceyrədənkənar lokalizasiya,"hüceyrədaxili lokalizasiya, sinir-əzələ qıcıqlanmasında iştirak",toxuma tənəffüsündə iştirak (elektron köçürülməsi),qan laxtalanmasında iştirak,C
+293,293. Orqanizmdə ionlar hansı prosesdə iştirak etmir:,sinir-əzələ qıcıqlanmasında iştirak,osmotik təzyiqin tənzimlənməsi,turşu-qələvi balansının tənzimlənməsində,onkotik təzyiq yaranmasında,qan laxtalanmasında iştirak,D
+294,294. Qida ilə Ca2+ -un daxil olmasında yaranan çatışmazlıq nəyə səbəb olur?,böyrəklər tərəfindən Ca2+ filtrasiyasına,tireokalsitonin sintezinin aktivləşdirilməsinə,parathormon sintezinin aktivləşdirilməsinə,sümük minerallaşmasının artmasına,turşu-qələvi müvazinətinin pozulması,C
+295,295. Kalium və natrium duzlarının hüceyrələr üçün əhəmiyyəti nədir:,qıcıqlanma və oyanmanın ötürülməsi ilə birbaşa bağlıdır,onlarsız qanın laxtalanması mümkün deyil,sümük toxumasını möhkəmləndirir,skeletin minerallaşmasında iştirak,kreatinfosfatın yaranmasında iştirak,A
+296,"296. Substratın qatılığı dəyişdikdə, fermentin fəallığı necə dəyişir?",fermentin fəallığı dəyişmir,fermentin fəallıq azalır,substrat qatılığınnın artması ilə fermentin fəaliyyəti daim artır,substratın qatılığının artması ilə fermentin fəallığı müəyyən həddə qədər yüksəlir,fermentin fəallığı sabit qalır,D
+297,297. Ferment nədir:,substratla kompleks əmələ gətirən və reaksiya zamanı parçalanan maddələr,reaksiya zamanı istifadə olunan maddələr,lipid təbiətli katalizatorlardır,karbohidrat təbiətli bioloji maddələrdir,"reaksiya zamanı dəyişikliklərə məruz qalan, lakin reaksiya başa çatdıqdan sonra ilkin vəziyyətinə qayıdan, kimyəvi reaksiyanı sürətləndirən zülal təbiətli katalizatorlardır",E
+298,298. Mütləq spesifiklik- nədir:,fermentin substratda müəyyən rabitələrə təsir etmək qabiliyyəti,fermentin substrat molekulunun müəyyən hissəsinə təsir etmək qabiliyyəti,fermentin bir substratın çevrilməsini kataliz etmək qabiliyyəti,fermentin yalnız bir reaksiyanı kataliz etmək qabiliyyəti,müxtəlif substratların tərkibində olan eynitipli rabitələrə təsir etmək qabiliyyəti,B
+299,299. Nisbi substrat spesifikliyi – nədir:,müxtəlif qruplara aid olan birləşmələrin oxşar kimyəvi reaksiyaların katalizi,fermentin yalnız bir reaksiyanı kataliz etmək qabiliyyəti,fermentin substrat molekulunun müəyyən hissəsinə təsir etmək qabiliyyəti,fermentin substratda müəyyən rabitələrə təsir etmək qabiliyyəti,fermentin bir substratın çevrilməsini kataliz etmək qabiliyyəti,A
+300,300. Miokard infarktında qanda hansı fermentin fəallığının təyin edilməsi diaqnostik əhəmiyyət kəsb edir:,katalaza,spirt dehidrogenaz,laktatdehidrogenaz - LDH1 və LDH2,aldolaza,peroksidaza,C
+301,301. Hansı birləşmələr rəqabətli ferment inhibitorları hesab olunur:,polipeptidlər,allosterik effektlər,strukturuna görə substrata oxşar maddələr,metallar,qeyri-üzvi birləşmələr,C
+302,302. Koferment nədir?,birləşmənin aktiv sahəsinə möhkəm bağlıdır,effektorun bağlanmasını təmin edən fermentin bir hissəsi,fermentin zülali hissəsi,"nukleotidlər, kimyəvi reaksiyada iştirak edən vitaminlərin törəmələri",fermentin zülali hissəsi ilə sıx rabitədə olan hissəsi,D
+303,303. Fermentin zülal hissəsi ilə sərbəst şəkildə rabitəyə daxil olan qrup necə adlanır:,oloferment,apoferment,izoferment,prostetik qrup,kofermentx,E
+304,304. Fermentin zülali hissəsi ilə sıx bağlı olan əlavə qrup necə adlanır?,koferment,prostetik qrupu,xoloferment,apoferment,kofaktor,B
+305,305. Fermentlər nəyə əsasən təsnifatlaşdırılır:,substrat növünə görə,rabitələrin xarakterinə görə,kataliz etdikləri reaksiyanın tipinə görə,fermentin təsir mexanizminə görə,fermentin aktiv mərkəzinə görə,C
+306,306. Bioloji oksidləşmə- nədir:,orqanizmin bütün kimyəvi reaksiyalarının məcmusu,anabolik reaksiyalar toplusu,katabolik reaksiyalar toplusu,oksidləşmə-reduksiya reaksiyalarının toplusu,biosintetik fermentlərin zəncirindən,D
+307,307. Tənəffüs zəncirinin fermentləri harada yerləşir:,nüvədə,mitoxondrilərin matrisində,mitoxondrilərin membranlararası boşluğunda,hüceyrələrin sitozolunda,mitoxondrilərin daxili membranında,E
+308,308. Tənəffüs zənciri boyunca proton və elektronların ötürülməsinin hərəkətverici qüvvəsi hesab edilir:,oksidləşmə-reduksiya potensialının dəyişməsi,osmotik təzyiqin dəyişməsi,pH-ın dəyişməsi,ATF-in hidrolizi,elektrokimyəvi potensialın dəyişməsi,A
+309,309. NADH2 + Q→NAD+ + QH2 Elektron nəqli zəncirindəki bu reaksiya hansı fermentlə kataliz olunur:,FAD-dan asılı dehidrogenaza,NADH dehidrogenaza,sitoxrom oksidaza,izositrat dehidrogenaza,laktatdehidrogenaza,B
+310,310. Tənəffüs zəncirindəki flavin fermentlərinin elektron qəbuledicisi adlanır:,sitoxrom c,sitoxrom b,ubixinon,oksigen,sitoxrom a,C
+311,311. Hansı fermentlər əzələ xəstəliyinin göstəricisi hesab olunur?,süksinat hidrogenaza,arginaza,turşu fosfataza,kreatinfosfokinaza,qammaqlutamil transpeptidaza,D
+312,312. Miozit (əzələ iltihabı) zamanı qanda hansı ferment artır?,katalaza,amilaza,fosfataza,aldolaza,peroksidaza,D
+313,313. İzoferment nədir?,"fiziki və kimyəvi xüsusiyyətlərinə görə fərqlənən, eyni reaksiyanı kataliz edən fermentlər",eyni fiziki və kimyəvi xüsusiyyətlərə malik multimerlər,müxtəlif kimyəvi reaksiyaları kataliz edən fermentlər,birçox kimyəvi reaksiyaları katalizasiya edə bilən fermentlər,eyni şəraitdə fəaliyyət göstərən fermentlər,A
+314,314. Sərbəst enerji- nədir,systemin istilik tərkibi,sistemin pozulma dərəcəsini xarakterizə edən proses,işin yerinə yetirilməsi üçün potensial olaraq mövcud olan enerji,işə çevrilə bilməyən kimyəvi prosesin enerjisi,sistemin ümumi enerjisi,C
+315,315. Orqanizmdə oksidləşmə prosesləri hüceyrədə harada baş verir?,izosomlarda,mikrosomlarda,sitoplazmada,mitoxondriyada l,xromosomlarda,D
+316,316. Piridin əsaslı dehidrogenazların kofermentini göstərin:,FAD,NADF,FMN,KoA,protoporfirin,B
+317,317. Tərkibində B2 vitamini olan tənəffüs zəncirinin daşıyıcısını göstərin:,NADF,K0Q,NAD,FAD,protoporfirin,D
+318,318. Oksidləşmə-fosforlaşma prosesi üçün xarakterik olan nədir:,makroergik rabitəli substratın enerjisi hesabına ATF əmələ gəlməsi,"yalnız mitoxondrilərdə olur, bir neçə ATF molekulu əmələ gələ bilər",sitoplazmada baş verə bilər,"mikrosomlarda baş verir, müxtəlif sayda ATF əmələ gəlir",yalnız bir ATF molekulu əmələ gələ bilər,B
+319,"319. Ferment bütün aşağıdakı xüsusiyyətlərə malikdir, yalnız biri istisna olmaqla:",elektroforez qabiliyyət,amfoter,dializ qabiliyyəti,termolabillik (istilik qabiliyyəti),duz çıxarmaq qabiliyyəti,C
+320,320. Bir fermentin molekulyar aktivliyi necə ölçülür?,standart şəraitdə saniyədə 1 mol məhsulun əmələ gəlməsini kataliz edən fermentin miqdarı,1 saniyədə ferment molekulu tərəfindən çevrilən substrat molekullarının sayı,ferment preparatında 1 mq zülala düşən ferment fəallığının vahid sayı,standart şəraitdə dəqiqədə 1 mkmol substratın çevrilməsinə səbəb olan fermentin miqdarı,ən yaxşı substrata münasibətdə ferment fəallığı,B
+321,"321. Göstərilən amillərin hamısı ferment aktivliyinə təsir göstərir, yalnız :",fermentlərin qatılığı,substratın qatılığı,optik sıxlı,inhibitorlar,temperatur,C
+322,322. Hidrolazlar nədir:,kofermentə suyun əlavə edilməsinin kataliz edən fermentlər,fermentə suyun əlavə edilməsinin kataliz edən fermentlər,suyun substratdan çıxarılmasını kataliz edən fermentlər,su molekulunun iştirakı ilə fəaliyyət göstərən fermentlər,su mühitdən çıxarıldıqda kataliz reaksiyaları,D
+323,323. Struktur funksiyası daşıyan zülallar hansılardır?,"mioqlobin, pepsin, kazein","keratin, fibrinogen, aktin","elastin, hemoqlobin, miozin","kollogen, lizozim, albumin","kollogen, keratin, elastin",E
+324,324. Oksigen nəqlində iştirak edən zülalı maddə hansıdır?,keratin,pepsin,insulin,hemoqlobin,miozin,D
+325,325. Sadə zülallar necə adlandırılır?,proteid,progestron,protein,prostaqlangin,pirimidin,C
+326,326. Zülalların I-li quruluşu hansı rabitənin hesabına yaranır?,Molekullararası cazibə qüvvəsi,İon rabitəsi,Hidrogen rabitəsi,Disultid rabitəsi,peptid rabitəsi,E
+327,327. Zülalların III-lü quruluşunda hansı rabitə iştirak etmir?,İon rabitəsi,Mürəkkəb efir rabitəsi,Hidrogen rabitəsi,Disultid rabitəsi,Molekullararası cazibə qüvvəsi,B
+328,328. Hansı reaksiya zülalların keyfiyyət reaksiyası deyil?,ninhidrin reaksiyası,millon reaksiyası,ksantoprotein reaksiyası,gümüş-güzgü reaksiyası,biuret reaksiyası,D
+329,329. Mürəkkəb zülallar necə adlandırılır?,prostaqlandin,progestron,proteid,pirimidin,protein,C
+330,330. Sadə zülallara aid olmayanlar hansılardır?,histonlar,qlikoproteidlər,protaminlər,albuminlər,qlobulinlər,B
+331,331. Mürəkkəb zülallara aid olmayanlar hansılardır?,xromoproteidlər,fosfoproteidlər,histonlar,nukleoproteidlər,lipoproteidlər,C
+332,332. Xromoproteidlərə aid olan zülallar hansılardır?,Fibrinogen,Albumin,Qlobulin,Mioqlobin,Lizosim,D
+333,333. Zülalların tərkibində əsas kimyəvi rabitə hansıdır?,Molekullararası cazibə qüvvəsi,İon rabitəsi,Hidrogen rabitəsi,Disultid rabitəsi,peptid rabitəsi,E
+334,334. Zülalların hidrolizindən neçə aminturşu alınmışdır?,20,15-Oct,90-95,100dən artıq,10-May,A
+335,335. a-aminturşuları təyin etmək üçün hansı reaksiyadan istifadə olunur?,senger reaktivi ilə reaksiya,ninhidrin reaksiyası,hipgins-adamkevis reaksiyası,Gümüş-güzgü reaksiyası,Selivanov reaksiyası,B
+336,336. Denaturasiya zülalın hansı quruluşunun dəyişilməsi hesabına baş verir?,II,I,III,IV,Hamısı,C
+337,337. Qidanın tərkibində əvəz olunmayan aminturşular çatışmadıqda nə baş verir?,hipoqlikemiya,hipervitaminoz,ketonemiya,zülal aclığı,avitaminoz,D
+338,338. Karbohidrtların tərkibinə daxil olan element hansıdır?,Dəmir,Fosfor,Mis,Azot,Oksigen,E
+339,339. SH-qrupu olan aminturşunu göstərin?,alanin,qlisin,Sistein,timin,sitozin,C
+340,340. Tərkibində kükürd olan aminturşunu göstərin:,Sistin,qlisin,alanin,timin,sitozin,A
+341,341. Əvəz olunmayan aminturşunu seçin:,asparigin,qlisin,alanin,metionin,serin,D
+342,342. Karbohidratların tərkibində olan əsas qrupları göstərin.,NH2,"-OH, -CHO",#NAME?,SH,#NAME?,B
+343,343. Qlükoza nədir:,Polisaxarid,Oliqosaxarid,disaxarid,Monosaxarid,Heteropolisaxarid,D
+344,344. Fruktoza nədir:,disaxarid,Oliqosaxarid,Monosaxarid,Polisaxarid,Heteropolisaxarid,C
+345,345. Saxaroza nədir?,Polisaxarid,trisaxarid,Monosaxarid,disaxarid,Heteropolisaxarid,D
+346,346. Polisaxaridi seçin.,qlükoza,riboza,dezoksriboza,fruktoza,Nişasta,E
+347,347. Qlikogenin monomeri nədir?,dezoksriboza,riboza,qlükoza,fruktoza,qalaktoza,C
+348,348. Monosaxaridi seçin.,laktoza,saxaroza,qalaktoza,maltoza,sellüloza,C
+349,349. Karbohidratlar insan orqanizminin quru çəkisinin neçə faizini təşkil edir?,7%,55,10%,2-3 %,13%,D
+350,350. Tərkibində amin qrupu olan monosaxaridlər necə adlanır?,Dezoksişəkərlər,Aminoşəkərlər,Qlükozidlər,Heptozalar,Heksuron turşuları,B
+351,351. 1 qr karbohidratın hüceyrədaxili oksidləşməsi zamanı necə kkal enerji əmələ gəlir?,"4,1 kkal","9,5 kkal",10 kkal,3 kkal,"10,2 kkal",A
+352,352. Qlükozaya aid olmayan xüsusiyyət hansıdır?,əsas enerji mənbəyidir,Bitki və heyvanlrın əsas karbohidratıdır,tərkibində keton qrupu var,oliqosaxaridlərin və polisaxaridlərin əsasını təşkil edir,osmotik təzyiqin saxlanılmasında iştirak edir,C
+353,353. Heparinin əmələ gəldiyi orqan hansıdır?,dalaq,mədəaltı vəzi,mədə,böyrəklər,qaraciyər,E
+354,354. Orqanizmin əsas enerji mənbəyi hansı karbohidratdır?,saxaroza,qlükoza,maltoza,qalaktoza,laktoza,B
+355,355. Nişastanın monomeri:,laktoza,saxaroza,qlükoza,fruktoza,maltoza,C
+356,356. Nişasta hidroliz edən zaman nə əmələ gəlir?,fruktoza,saxaroza,laktoza,qlükoza,maltoza,D
+357,357. Hansı proseslərdə sellüloza iştirak etmir?,toxluq hissi yaratmaq,həzm şirələrinin stimullaşdırmaqda,əzələlərdə toplanmaq,bağırsağın motorikasının aktivləşməsində,mədənin motorikasının aktivləşdirilməsi,C
+358,358. Qaraciyərdə hansı polisaxarid parçalanmaya məruz qalır?,maltoza,mannoza,qlükoza,laktoza,qlikogen,E
+359,359. Nuklein turşuları hansılardır?,"AMF, ADF","AKTH, KrF","RNT, DNT","PP, C","LDQ, PüT",C
+360,360. DNT-nin bioloji rolu nədən ibarətdir?,aktivləşmiş aminturşuları zülalların sintez yerinə daşıyır,genetik informasiyanın daşıyıcısıdır,ribosomların əsas komponentini təşkil edir,yağların sintezində iştirak edir,qlikogenin sintezində iştirak edir,B
+361,361. Göstərilənlərdən hansı nuklein turşularının hidrolizi zamanı alınır?,nişasta,qlikogen,azot əsasları,hemoqlabin,aminturşu,C
+362,362. RNT-nin strukturuna daxildir?,fruktoza,dezoksriboza,qlikogen,riboza,bioza,D
+363,363. RNT-nin tərkibi hansı maddələrdən təşkil olunmuşdur?,"azot əsası, riboza",fosfat turşusu və azot əsasları,azot əsası və dezoksiribozadan,fosfat turşusu və ribozadan,"azot əsası, fosfat turşusu və ribozadan",E
+364,364. Nuklein turşularının tərkibində neçə azot əsası vardır?,1,4,3,2,5,E
+365,365. Nuklein turşuları tərkibindəki pentozanın növünə görə neçə qrupa bölünür?,5,4,3,2,6,D
+366,366. Nukleproteidlər nədir?,nukleozid ilə fosfat turşusunun birləşməsi,azot əsası ilə dezoksiribozanın birləşməsi,zülal ilə nuklein turşularının birləşməsi,azot əsası ilə ribozanın birləşməsi,mononukleotidlərin ardıcıl birləşməsi,C
+367,367. DNT turşusunun tərkibində hansı maddə aşkar olunmayıb?,quanin,riboza,timin,sitozin,adenin,B
+368,368. RNT molekulu neçə ədəd polinukliotid zəncirdən ibarətdir?,1 ədəd,3 ədəd,2 ədəd,6 ədəd,4 ədəd,A
+369,369. DNT molekulu neçə ədəd polinukliotid zəncirdən ibarətdir?,5,3,4,2,1,D
+370,370. Lipidlər həll olmur:,spirtdə,efirdə xloroform,yağ,suda,benzolda,D
+371,371. Lipidlər:,hidrofildir,hüceyrələrin əsas tərkib hissəsidir əsas enerji mənbəyidir.,tərkibində azot elementinə rast gəlinir,peptid rabitəsi ilə birləşib,şirin dada malikdir,B
+372,372. Lipidlər:,şirin dada malikdir,hidrofildir,tərkibində azot elementinə rast gəlinir,peptid rabitəsi ilə birləşib,orqanizmdə zülal və karbohidratlara birlikdə - kompleks birləşmələr şəklində olur.,E
+373,373. Lipidlər:,soyuq iqlim şəraitində yaşayan heyvanların dərialtı piy təbəqəsinin qalın olması onların soyuqdan qoruyur,dərialtı piy qatı orqanizmi xarici mühitin zərərli amillərdən qoruyur,hamısı,"daxili orqanların ətrafında (ürək, böyrək) toplanaraq zədələnmələrdən qoruyur",Bəzi vitaminlər üçün həlledicidir,C
+374,374. İnsan və heyvan orqanizmində yağlar ehtiyat qida maddəsi kimi harda toplanmır:,daxili orqanların üzərində,sümüklərin üzərində,dərialtı piy qatında,sümük iliyində,oynaq mayesində,B
+375,375. Yağlar orqanizmdə hansı funksiyanı yerinə yetirmir?,struktur-inşaat,energetik,ehtiyat,katalitik,qoruyucu,D
+376,376. Təbii yağlar hidroliz olduqda:,zülallar əmələ gəlir,vitaminlər əmələ gəlir,qliserin və ali yağ turşularına parçalanır,karbohdirat əmələ gəlir,karbon qazı əmələ gəlir,C
+377,377. Bitki və heyvan mənşəlin yağlar hidroliz edən zaman nə yaranır?,"sidik cövhəri, sidik turşusu","qliserin, doymuş və doymamış yağ turşuları",hormonlar və vitaminlər,karbohidratlar,purin və pirimidin əsasları,B
+378,378. Doymuş və doymamış yağ turşularının fərqi:,Tərkibindəki kükürdə görə,Tərkibindəki azota görə,Tərkibindəki rabitələrə görə,Tərkibindəki 1 atomlu spirtə görə,Tərkibindəki 2 atomlu spirtə görə,C
+379,379. Heyvani yağlar nəyə görə bərk olur.,tərkibindəki suyun miqdarına görə,tərkibindəki doymamış yağ turşularına görə,tərkibindəki kalsium duzlarına görə,tərkibindəki vitaminlərə görə,tərkibindəki doymuş yağ turşularına görə,E
+380,380. Bitki mənşəli yağlar nəyə görə maye şəklində olur?,tərkibindəki kalsium duzlarına görə,tərkibindəki doymuş yağ turşularına görə,tərkibindəki doymamış yağ turşularına görə,tərkibindəki vitaminlərə görə,tərkibindəki suyun miqdarına görə,C
+381,381. Yagda həll olan vitamini göstərin?,B12,C,B1,B6,D,E
+382,382. Yağda həll olan vitamini göstərin:,B6,C,B1,A,B12,D
+383,383. Adrenalin hansı maddənin parçalanmasını sürətləndirir:,yağların,sellülozanın,qlikogenin,nukleotidlərin,sadə zülalların,C
+384,384. Ödün rolu:,yağlar üçün emulqator vəzifəsini daşıyır,vitamindir,hormondur,heç bir rolu yoxdur,zülaldır,A
+385,385. Yağların qələvinin iştirakı ilə reaksiyası necə adlanır?,polimerləşmə reaksiyası,polikondensasiya,parçalanma reaksiyası,oksidləşmə reaksiyası,sabunlaşma reaksiyası,E
+386,386. Bərk sabun necə alınır:,Mg(OH)2 -dən istifadə etdikdə,KOH - dən istifadə etdikdə,Ca(OH)2 -dən istifadə etdikdə,NaOH -dən istifadə etdikdə,Cu(OH)2 -dən istifadə etdikdə,D
+387,387. Maye sabun necə alınır:,NaOH -dən istifadə etdikdə,KOH - dən istifadə etdikdə,Ca(OH)2 -dən istifadə etdikdə,Mg(OH)2 -dən istifadə etdikdə,Cu(OH)2 -dən istifadə etdikdə,B
+388,388. Yağların qaxsıması zamanı nə baş verir?,sidik cövhəri əmələ gəlir,qlükoza əmələ gəlir,qliserin və yağ turşuları əmələ gəlir,hər biri,spirt əmələ gəlir,C
+389,389. Mumlar nədir?,heç biri,vitamindir,zülaldır,iri molekullu yağlar turşuları ilə biratomlu spritlərin mürəkkəb efirlərdir,qliserindir,D
+390,390. Uşaqlarda ən çox rast gəlinən xəstəliklərdən hansılardır?,qastrit,hiporpokiya,raxit,skorbut,sinqa,C
+391,391. Beri-beri xəstəliyi hansı vitaminin çatışmazlığı zamanı baş verir ?,D vitamini,C vitamini,A vitamini,B1 vitamini,PP vitamini,D
+392,392. Retinol hansı vitamindir?,B12,A,B6,D,,B
+393,393. Karotinlər hansı vitaminin sələfləridir?,E,B12,B6,D,A,E
+394,394. Hormonlar hansı funksiyanı yerinə yetirir?,müdafiə,katalitik,tənzimlıyici,nəqliyat,energetik,C
+395,395. Qlikogenin qlükozadan sintezini hansı hormon gücləndirir?,adrenalin,insulin,qlükaqon,testesteron,tiroksin,B
+396,396. Əzələlərdə qlikogeni parçalayan hormon hansıdır?,testesteron,insulin,Melotonin,adrenalin,tiroksin,D
+397,397. Hansı hormon zülal təbiətlidir?,adrenalin,insulin,qlükaqon,testesteron,tiroksin,B
+398,398. Hansı hormon zülalların sintezini gücləndirir?,tiroksin,adrenalin,qlükaqon,testesteron,somatotropin,E
+399,399. Qlükaqon hormonu hansı maddənin parçalanmasını stimullaşdırır?,yağların,zülalın,qlikogenin,qlükozanın,saxarozanın,C
+400,400. Mədəaltı vəzidə sintez olunan hormon:,adrenalin,insulin,qlükaqon,testesteron,tiroksin,B
+401,401. Steroid təbiətli hormonu göstərin:,testesteron,insulin,qlükaqon,kortizol,tiroksin,D
+402,402. Qaraciyərdə qlikogeni parçalayan hormon?,tiroksin,insulin,kortizol,testesteron,qlükaqon,E

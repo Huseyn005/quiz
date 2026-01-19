@@ -1,7 +1,7 @@
 // quiz.js
 
 // Read CSV path from body attribute, default to questions.csv
-const CSV_PATH = /*document.body.dataset.csv ||*/ 'questions.csv';
+const CSV_PATH = document.body.dataset.csv;
 
 function parseCSV(text) {
     const lines = text.trim().split(/\r?\n/);
