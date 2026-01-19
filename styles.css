@@ -98,3 +98,47 @@ h1 {
     transform: translateY(-2px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
 }
+
+.question-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 10px 14px;        /* smaller padding = not too thick */
+    margin-bottom: 12px;
+}
+
+.question-text {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;                  /* small space between options */
+}
+
+.option-label {
+    display: flex;
+    align-items: center;
+    padding: 6px 10px;         /* thinner rows */
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    background-color: #fafafa;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.option-label input {
+    margin-right: 8px;
+}
+
+.correct-answer {
+    background-color: #c8e6c9;
+    border-color: #66bb6a;
+}
+
+.incorrect-answer {
+    background-color: #ffcdd2;
+    border-color: #e57373;
+}
