@@ -25,5 +25,22 @@
         </div>
 
         <script src="quiz.js"></script>
+        <div id="score-modal-overlay" class="score-modal-overlay">
+            <div class="score-modal">
+                <button id="score-modal-close" class="score-modal-close">&times;</button>
+
+                <h2>Neticə</h2>
+
+                <div class="score-gauge-wrapper">
+                    <svg viewBox="0 0 100 50" class="score-gauge">
+                        <path class="gauge-bg" d="M10 50 A40 40 0 0 1 90 50" />
+                        <path id="gauge-fill" class="gauge-fill" d="M10 50 A40 40 0 0 1 90 50" />
+                    </svg>
+                    <div id="score-percent" class="score-percent">0%</div>
+                </div>
+
+                <p id="score-text" class="score-text"></p>
+            </div>
+        </div>
     </body>
 </html>

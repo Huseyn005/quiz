@@ -162,3 +162,80 @@ h1 {
     background-color: #ffcdd2;
     border-color: #e57373;
 }
+
+.score-modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.score-modal {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 24px 28px 28px;
+    max-width: 420px;
+    width: 90%;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    position: relative;
+}
+
+.score-modal h2 {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.score-modal-close {
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    border: none;
+    background: transparent;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.score-gauge-wrapper {
+    position: relative;
+    width: 220px;
+    margin: 0 auto 16px;
+}
+
+.score-gauge {
+    width: 100%;
+    height: auto;
+}
+
+.gauge-bg {
+    fill: none;
+    stroke: #e0e0e0;
+    stroke-width: 8;
+}
+
+.gauge-fill {
+    fill: none;
+    stroke: #4caf50;
+    stroke-width: 8;
+    stroke-linecap: round;
+    stroke-dasharray: 126;
+    stroke-dashoffset: 126;
+    transition: stroke-dashoffset 0.6s ease;
+}
+
+.score-percent {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -30%);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.score-text {
+    margin-top: 8px;
+    font-size: 16px;
+}

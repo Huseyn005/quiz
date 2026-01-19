@@ -1,8 +1,14 @@
-const quizType = document.body.dataset.quiz;
-const fiziCsvPath = document.body.dataset.csv;
+// quiz.js
+
+// Read quiz configuration from <body>
+const quizType = document.body.dataset.quiz || 'default';
+const fiziCsvPath = document.body.dataset.csv || 'questions.csv';
 const biochemClosePath = document.body.dataset.csvClose;
 const biochemOpenPath = document.body.dataset.csvOpen;
 
+// -------------------- PARSERS --------------------
+
+// MCQ CSV: ID,Question(or Sual),A,B,C,D,E,correct  (8 columns)
 function parseMcqCSV(text) {
     const lines = text.trim().split(/\r?\n/);
     if (lines.length < 2) return [];
@@ -32,6 +38,7 @@ function parseMcqCSV(text) {
         }
         values.push(current);
 
+        // Expect 8 columns: ID,Question,A,B,C,D,E,correct
         if (values.length < 8) continue;
 
         const id = parseInt(values[0], 10);
@@ -53,6 +60,7 @@ function parseMcqCSV(text) {
     return result;
 }
 
+// Biokimya open CSV: ID, Question, Correct  (3 columns)
 function parseBiochemOpenCSV(text) {
     const lines = text.trim().split(/\r?\n/);
     if (lines.length < 2) return [];
@@ -82,6 +90,7 @@ function parseBiochemOpenCSV(text) {
         }
         values.push(current);
 
+        // Expect at least 3 columns: ID, Question, Correct
         if (values.length < 3) continue;
 
         const id = parseInt(values[0], 10);
@@ -93,6 +102,8 @@ function parseBiochemOpenCSV(text) {
 
     return result;
 }
+
+// -------------------- HELPERS --------------------
 
 function getRandomQuestions(pool, count) {
     const shuffled = pool.slice();
@@ -107,10 +118,21 @@ function normalizeAnswer(str) {
     return str
         .trim()
         .toLowerCase()
-        .replace(/\s*,\s*/g, ',')
-        .replace(/\s+/g, ' ');
+        .replace(/\s*,\s*/g, ',') // "1, 2,3" => "1,2,3"
+        .replace(/\s+/g, ' '); // multiple spaces => single space
 }
 
+// Split "a or b or c" into ["a","b","c"] and normalize each
+function getCorrectVariants(raw) {
+    return raw
+        .split(/\s+or\s+/i) // split on "or"
+        .map(part => normalizeAnswer(part))
+        .filter(part => part.length > 0);
+}
+
+// -------------------- RENDERERS --------------------
+
+// Fiziologiya + Biokimya MCQs (A–E)
 function renderMcqQuestions(questions, startIndex) {
     const container = document.getElementById('questions-container');
 
@@ -122,7 +144,8 @@ function renderMcqQuestions(questions, startIndex) {
 
         const qText = document.createElement('p');
         qText.className = 'question-text';
-        qText.textContent = startIndex + index + 1 + ') ' + q.question;
+        // e.g. "3) (12) Question text..."
+        qText.textContent = startIndex + index + 1 + ') (' + q.id + ') ' + q.question;
         card.appendChild(qText);
 
         const optionsDiv = document.createElement('div');
@@ -148,6 +171,7 @@ function renderMcqQuestions(questions, startIndex) {
     });
 }
 
+// Biokimya open questions (free text, auto-graded with multi answers)
 function renderBiochemOpenQuestions(questions, startIndex) {
     const container = document.getElementById('questions-container');
 
@@ -155,11 +179,11 @@ function renderBiochemOpenQuestions(questions, startIndex) {
         const card = document.createElement('div');
         card.className = 'question-card';
         card.dataset.type = 'biochem-open';
-        card.dataset.correct = q.correct;
+        card.dataset.correct = q.correct; // raw string with "or" variants
 
         const qText = document.createElement('p');
         qText.className = 'question-text';
-        qText.textContent = startIndex + index + 1 + ') ' + q.question;
+        qText.textContent = startIndex + index + 1 + ') (' + q.id + ') ' + q.question;
         card.appendChild(qText);
 
         const textarea = document.createElement('textarea');
@@ -171,12 +195,37 @@ function renderBiochemOpenQuestions(questions, startIndex) {
     });
 }
 
+// -------------------- SCORE MODAL --------------------
+
+function showScoreModal(correct, total) {
+    const overlay = document.getElementById('score-modal-overlay');
+    const textEl = document.getElementById('score-text');
+    const percentEl = document.getElementById('score-percent');
+    const gaugeFill = document.getElementById('gauge-fill');
+
+    if (!overlay || !textEl || !percentEl || !gaugeFill) return;
+
+    const percent = total > 0 ? Math.round((correct / total) * 100) : 0;
+
+    textEl.textContent = `Your score (auto-graded): ${correct} / ${total}`;
+    percentEl.textContent = percent + '%';
+
+    const ARC_LENGTH = 126; // must match stroke-dasharray in CSS
+    const offset = ARC_LENGTH * (1 - percent / 100);
+    gaugeFill.style.strokeDashoffset = offset;
+
+    overlay.style.display = 'flex';
+}
+
+// -------------------- CHECK ANSWERS --------------------
+
 function checkAnswers() {
     const cards = document.querySelectorAll('.question-card');
     let unanswered = 0;
     let correctCount = 0;
-    let autoCount = 0;
+    let autoCount = 0; // how many are auto-graded
 
+    // First pass: make sure everything is answered
     cards.forEach(card => {
         const type = card.dataset.type || 'mcq';
 
@@ -233,11 +282,14 @@ function checkAnswers() {
                 label.querySelector('input').disabled = true;
             });
         } else if (type === 'biochem-open') {
-            const correctNorm = normalizeAnswer(card.dataset.correct || '');
+            const rawCorrect = card.dataset.correct || '';
+            const variants = getCorrectVariants(rawCorrect); // [v1,v2,...]
             const ta = card.querySelector('textarea.open-answer');
             const userNorm = normalizeAnswer(ta.value || '');
 
-            if (userNorm === correctNorm) {
+            const isCorrect = variants.some(v => v === userNorm);
+
+            if (isCorrect) {
                 correctCount++;
                 ta.classList.add('correct-answer');
             } else {
@@ -252,12 +304,19 @@ function checkAnswers() {
     const bottomScore = document.getElementById('bottom-score-container');
     const text = `Your score (auto-graded): ${correctCount} / ${autoCount}.`;
 
-    scoreContainer.textContent = text;
-    bottomScore.textContent = text;
+    if (scoreContainer) scoreContainer.textContent = text;
+    if (bottomScore) bottomScore.textContent = text;
 
-    document.getElementById('check-button').disabled = true;
-    document.getElementById('reload-button').style.display = 'inline-block';
+    // show nice modal
+    showScoreModal(correctCount, autoCount);
+
+    const checkBtn = document.getElementById('check-button');
+    const reloadBtn = document.getElementById('reload-button');
+    if (checkBtn) checkBtn.disabled = true;
+    if (reloadBtn) reloadBtn.style.display = 'inline-block';
 }
+
+// -------------------- INIT --------------------
 
 function initFiziologiyaQuiz() {
     fetch(fiziCsvPath)
@@ -274,27 +333,36 @@ function initFiziologiyaQuiz() {
             }
             const selected = getRandomQuestions(allQuestions, Math.min(25, allQuestions.length));
             renderMcqQuestions(selected, 0);
-            document.getElementById('questions-container').style.display = 'block';
+            const qc = document.getElementById('questions-container');
+            if (qc) qc.style.display = 'block';
         })
         .catch(err => {
             const scoreContainer = document.getElementById('score-container');
-            scoreContainer.style.color = 'red';
-            scoreContainer.textContent = err.message;
+            if (scoreContainer) {
+                scoreContainer.style.color = 'red';
+                scoreContainer.textContent = err.message;
+            }
             console.error(err);
         })
         .finally(() => {
-            document.getElementById('check-button').addEventListener('click', checkAnswers);
-            document.getElementById('reload-button').addEventListener('click', () => {
-                window.location.reload();
-            });
+            const checkBtn = document.getElementById('check-button');
+            const reloadBtn = document.getElementById('reload-button');
+            if (checkBtn) checkBtn.addEventListener('click', checkAnswers);
+            if (reloadBtn) {
+                reloadBtn.addEventListener('click', () => {
+                    window.location.reload();
+                });
+            }
         });
 }
 
 function initBiokimyaQuiz() {
     if (!biochemClosePath || !biochemOpenPath) {
         const scoreContainer = document.getElementById('score-container');
-        scoreContainer.style.color = 'red';
-        scoreContainer.textContent = 'Biokimya CSV paths are not configured.';
+        if (scoreContainer) {
+            scoreContainer.style.color = 'red';
+            scoreContainer.textContent = 'Biokimya CSV paths are not configured.';
+        }
         return;
     }
 
@@ -309,10 +377,8 @@ function initBiokimyaQuiz() {
 
             const [textClose, textOpen] = await Promise.all([resClose.text(), resOpen.text()]);
 
-            // 8-column MCQs:
-            const allClose = parseMcqCSV(textClose);
-            // 3-column open-ended:
-            const allOpen = parseBiochemOpenCSV(textOpen);
+            const allClose = parseMcqCSV(textClose); // 8-col MCQ
+            const allOpen = parseBiochemOpenCSV(textOpen); // 3-col text
 
             if (allClose.length === 0) {
                 throw new Error('No close-ended questions in ' + biochemClosePath);
@@ -327,26 +393,53 @@ function initBiokimyaQuiz() {
             renderMcqQuestions(selectedClose, 0);
             renderBiochemOpenQuestions(selectedOpen, selectedClose.length);
 
-            document.getElementById('questions-container').style.display = 'block';
+            const qc = document.getElementById('questions-container');
+            if (qc) qc.style.display = 'block';
         })
         .catch(err => {
             const scoreContainer = document.getElementById('score-container');
-            scoreContainer.style.color = 'red';
-            scoreContainer.textContent = err.message;
+            if (scoreContainer) {
+                scoreContainer.style.color = 'red';
+                scoreContainer.textContent = err.message;
+            }
             console.error(err);
         })
         .finally(() => {
-            document.getElementById('check-button').addEventListener('click', checkAnswers);
-            document.getElementById('reload-button').addEventListener('click', () => {
-                window.location.reload();
-            });
+            const checkBtn = document.getElementById('check-button');
+            const reloadBtn = document.getElementById('reload-button');
+            if (checkBtn) checkBtn.addEventListener('click', checkAnswers);
+            if (reloadBtn) {
+                reloadBtn.addEventListener('click', () => {
+                    window.location.reload();
+                });
+            }
         });
 }
 
+// -------------------- DOM READY --------------------
+
 document.addEventListener('DOMContentLoaded', () => {
+    // start the right quiz
     if (quizType === 'biokimya') {
         initBiokimyaQuiz();
     } else {
         initFiziologiyaQuiz();
+    }
+
+    // modal close handlers
+    const overlay = document.getElementById('score-modal-overlay');
+    const closeBtn = document.getElementById('score-modal-close');
+
+    if (closeBtn && overlay) {
+        closeBtn.addEventListener('click', () => {
+            overlay.style.display = 'none';
+        });
+    }
+    if (overlay) {
+        overlay.addEventListener('click', e => {
+            if (e.target === overlay) {
+                overlay.style.display = 'none';
+            }
+        });
     }
 });
