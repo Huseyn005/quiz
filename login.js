@@ -294,9 +294,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if (data.ok) {
                 const sessionToken = crypto.randomUUID();
-                localStorage.setItem('quiz-session', sessionToken);
+                sessionStorage.setItem('quiz-session', sessionToken);
                 window.location.href = 'select-quiz.html';
-                
+
             } else {
                 error.textContent = 'Yanlış token';
                 error.style.display = 'block';
