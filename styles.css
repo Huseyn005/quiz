@@ -103,7 +103,7 @@ h1 {
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 6px;
-    padding: 10px 14px;        /* smaller padding = not too thick */
+    padding: 10px 14px; /* smaller padding = not too thick */
     margin-bottom: 12px;
 }
 
@@ -115,13 +115,13 @@ h1 {
 .options {
     display: flex;
     flex-direction: column;
-    gap: 6px;                  /* small space between options */
+    gap: 6px; /* small space between options */
 }
 
 .option-label {
     display: flex;
     align-items: center;
-    padding: 6px 10px;         /* thinner rows */
+    padding: 6px 10px; /* thinner rows */
     border: 1px solid #e0e0e0;
     border-radius: 4px;
     background-color: #fafafa;
@@ -139,6 +139,26 @@ h1 {
 }
 
 .incorrect-answer {
+    background-color: #ffcdd2;
+    border-color: #e57373;
+}
+
+.open-answer {
+    width: 100%;
+    padding: 6px 8px;
+    font-size: 14px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+}
+
+.open-answer.correct-answer {
+    background-color: #c8e6c9;
+    border-color: #66bb6a;
+}
+
+.open-answer.incorrect-answer {
     background-color: #ffcdd2;
     border-color: #e57373;
 }
