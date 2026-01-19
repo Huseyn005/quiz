@@ -293,7 +293,10 @@ document.addEventListener('DOMContentLoaded', () => {
             const data = await res.json();
 
             if (data.ok) {
+                const sessionToken = crypto.randomUUID();
+                localStorage.setItem('quiz-session', sessionToken);
                 window.location.href = 'select-quiz.html';
+                
             } else {
                 error.textContent = 'Yanlış token';
                 error.style.display = 'block';
