@@ -1,14 +1,10 @@
-// quiz.js
 
-// Read quiz configuration from <body>
 const quizType = document.body.dataset.quiz || 'default';
 const fiziCsvPath = document.body.dataset.csv || 'questions.csv';
 const biochemClosePath = document.body.dataset.csvClose;
 const biochemOpenPath = document.body.dataset.csvOpen;
 
-// -------------------- PARSERS --------------------
 
-// MCQ CSV: ID,Question(or Sual),A,B,C,D,E,correct  (8 columns)
 function parseMcqCSV(text) {
     const lines = text.trim().split(/\r?\n/);
     if (lines.length < 2) return [];
@@ -38,7 +34,6 @@ function parseMcqCSV(text) {
         }
         values.push(current);
 
-        // Expect 8 columns: ID,Question,A,B,C,D,E,correct
         if (values.length < 8) continue;
 
         const id = parseInt(values[0], 10);
@@ -60,7 +55,6 @@ function parseMcqCSV(text) {
     return result;
 }
 
-// Biokimya open CSV: ID, Question, Correct  (3 columns)
 function parseBiochemOpenCSV(text) {
     const lines = text.trim().split(/\r?\n/);
     if (lines.length < 2) return [];
@@ -103,7 +97,6 @@ function parseBiochemOpenCSV(text) {
     return result;
 }
 
-// -------------------- HELPERS --------------------
 
 function getRandomQuestions(pool, count) {
     const shuffled = pool.slice();
@@ -130,9 +123,6 @@ function getCorrectVariants(raw) {
         .filter(part => part.length > 0);
 }
 
-// -------------------- RENDERERS --------------------
-
-// Fiziologiya + Biokimya MCQs (A–E)
 function renderMcqQuestions(questions, startIndex) {
     const container = document.getElementById('questions-container');
 
@@ -171,7 +161,6 @@ function renderMcqQuestions(questions, startIndex) {
     });
 }
 
-// Biokimya open questions (free text, auto-graded with multi answers)
 function renderBiochemOpenQuestions(questions, startIndex) {
     const container = document.getElementById('questions-container');
 
@@ -195,8 +184,6 @@ function renderBiochemOpenQuestions(questions, startIndex) {
     });
 }
 
-// -------------------- SCORE MODAL --------------------
-
 function showScoreModal(correct, total) {
     const overlay = document.getElementById('score-modal-overlay');
     const textEl = document.getElementById('score-text');
@@ -217,15 +204,13 @@ function showScoreModal(correct, total) {
     overlay.style.display = 'flex';
 }
 
-// -------------------- CHECK ANSWERS --------------------
 
 function checkAnswers() {
     const cards = document.querySelectorAll('.question-card');
     let unanswered = 0;
     let correctCount = 0;
-    let autoCount = 0; // how many are auto-graded
+    let autoCount = 0; 
 
-    // First pass: make sure everything is answered
     cards.forEach(card => {
         const type = card.dataset.type || 'mcq';
 
