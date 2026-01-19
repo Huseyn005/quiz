@@ -145,7 +145,7 @@ function renderMcqQuestions(questions, startIndex) {
         const qText = document.createElement('p');
         qText.className = 'question-text';
         // e.g. "3) (12) Question text..."
-        qText.textContent = startIndex + index + 1 + ') (' + q.id + ') ' + q.question;
+        qText.textContent = startIndex + index + 1 + ') ' + q.question;
         card.appendChild(qText);
 
         const optionsDiv = document.createElement('div');
@@ -183,7 +183,7 @@ function renderBiochemOpenQuestions(questions, startIndex) {
 
         const qText = document.createElement('p');
         qText.className = 'question-text';
-        qText.textContent = startIndex + index + 1 + ') (' + q.id + ') ' + q.question;
+        qText.textContent = startIndex + index + 1 + ')' + q.id + '.' + q.question;
         card.appendChild(qText);
 
         const textarea = document.createElement('textarea');
@@ -207,7 +207,7 @@ function showScoreModal(correct, total) {
 
     const percent = total > 0 ? Math.round((correct / total) * 100) : 0;
 
-    textEl.textContent = `Your score (auto-graded): ${correct} / ${total}`;
+    textEl.textContent = `Bal: ${correct} / ${total}`;
     percentEl.textContent = percent + '%';
 
     const ARC_LENGTH = 126; // must match stroke-dasharray in CSS
@@ -416,10 +416,7 @@ function initBiokimyaQuiz() {
         });
 }
 
-// -------------------- DOM READY --------------------
-
 document.addEventListener('DOMContentLoaded', () => {
-    // start the right quiz
     if (quizType === 'biokimya') {
         initBiokimyaQuiz();
     } else {
