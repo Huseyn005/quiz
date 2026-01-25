@@ -1,13 +1,11 @@
-// api/csv.js
-
-const { Redis } = require('@upstash/redis');
+import { Redis } from '@upstash/redis';
 
 const redis = new Redis({
     url: process.env.UPSTASH_REDIS_REST_URL,
     token: process.env.UPSTASH_REDIS_REST_TOKEN,
 });
 
-module.exports = async (req, res) => {
+export default async function handler(req, res) {
     try {
         const fileParam = req.query.file;
 
@@ -31,6 +29,6 @@ module.exports = async (req, res) => {
         res.status(200).send(csv);
     } catch (err) {
         console.error(err);
-        res.status(500).send('Error fetching CSV from Upstash');
+        res.status(500).send('Server Error: ' + err.message);
     }
-};
+}
