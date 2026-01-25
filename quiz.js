@@ -1,9 +1,17 @@
-
 const quizType = document.body.dataset.quiz || 'default';
 const fiziCsvPath = document.body.dataset.csv || 'questions.csv';
 const biochemClosePath = document.body.dataset.csvClose;
 const biochemOpenPath = document.body.dataset.csvOpen;
 
+function fetchCsvFromUpstash(csvPath) {
+    const url = '/api/csv?file=' + encodeURIComponent(csvPath);
+    return fetch(url).then(response => {
+        if (!response.ok) {
+            throw new Error('Failed to load CSV from Upstash: ' + csvPath);
+        }
+        return response.text();
+    });
+}
 
 function parseMcqCSV(text) {
     const lines = text.trim().split(/\r?\n/);
@@ -96,7 +104,6 @@ function parseBiochemOpenCSV(text) {
 
     return result;
 }
-
 
 function getRandomQuestions(pool, count) {
     const shuffled = pool.slice();
@@ -204,12 +211,11 @@ function showScoreModal(correct, total) {
     overlay.style.display = 'flex';
 }
 
-
 function checkAnswers() {
     const cards = document.querySelectorAll('.question-card');
     let unanswered = 0;
     let correctCount = 0;
-    let autoCount = 0; 
+    let autoCount = 0;
 
     cards.forEach(card => {
         const type = card.dataset.type || 'mcq';
@@ -304,13 +310,8 @@ function checkAnswers() {
 // -------------------- INIT --------------------
 
 function initFiziologiyaQuiz() {
-    fetch(fiziCsvPath)
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('Failed to load CSV file: ' + fiziCsvPath);
-            }
-            return response.text();
-        })
+    fetch(fiziCsvPath);
+    fetchCsvFromUpstash(fiziCsvPath)
         .then(text => {
             const allQuestions = parseMcqCSV(text);
             if (allQuestions.length === 0) {
@@ -351,19 +352,10 @@ function initBiokimyaQuiz() {
         return;
     }
 
-    Promise.all([fetch(biochemClosePath), fetch(biochemOpenPath)])
-        .then(async ([resClose, resOpen]) => {
-            if (!resClose.ok) {
-                throw new Error('Failed to load ' + biochemClosePath);
-            }
-            if (!resOpen.ok) {
-                throw new Error('Failed to load ' + biochemOpenPath);
-            }
-
-            const [textClose, textOpen] = await Promise.all([resClose.text(), resOpen.text()]);
-
+    Promise.all([fetchCsvFromUpstash(biochemClosePath), fetchCsvFromUpstash(biochemOpenPath)])
+        .then(([textClose, textOpen]) => {
             const allClose = parseMcqCSV(textClose); // 8-col MCQ
-            const allOpen = parseBiochemOpenCSV(textOpen); // 3-col text
+            const allOpen = parseBiochemOpenCSV(textOpen); // 3-col open
 
             if (allClose.length === 0) {
                 throw new Error('No close-ended questions in ' + biochemClosePath);
